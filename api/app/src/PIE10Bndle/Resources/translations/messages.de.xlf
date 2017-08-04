@@ -1,0 +1,1330 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:jms="urn:jms:translation" version="1.2">
+  <file date="2017-02-07T06:13:20Z" source-language="en" target-language="de" datatype="plaintext" original="not.available">
+    <header>
+      <tool tool-id="JMSTranslationBundle" tool-name="JMSTranslationBundle" tool-version="1.1.0-DEV"/>
+      <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
+    </header>
+    <body>
+      <trans-unit id="da39a3ee5e6b4b0d3255bfef95601890afd80709" resname="">
+        <source></source>
+        <target state="new"></target>
+        <jms:reference-file line="42">/../src/EDUBundle/Form/ScheduleType.php</jms:reference-file>
+        <jms:reference-file line="79">/../src/EDUBundle/Form/UserEditType.php</jms:reference-file>
+        <jms:reference-file line="99">/../src/EDUBundle/Form/UserType.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="d066db997adfcd2420500fd142899287c25f6e23" resname="%ADD_SUBS%">
+        <source>%ADD_SUBS%</source>
+        <target state="new">%ADD_SUBS%</target>
+        <jms:reference-file line="2446">/../src/EDUBundle/Controller/DefaultController.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="4506332e4a75bf554ede8e91fbb447575bdd347a" resname="%AD_NW_SR%">
+        <source>%AD_NW_SR%</source>
+        <target state="new">%AD_NW_SR%</target>
+        <jms:reference-file line="276">/../src/EDUBundle/Controller/DefaultController.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="19fc1585038e0e4c255d1539213bc8f6ac78ae4c" resname="%AddNewHall%">
+        <source>%AddNewHall%</source>
+        <target state="new">%AddNewHall%</target>
+        <jms:reference-file line="3305">/../src/EDUBundle/Controller/DefaultController.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="03e4f9e8dd447c39561210a4588ad62a29f8db28" resname="%AddNewSchedule%">
+        <source>%AddNewSchedule%</source>
+        <target state="new">%AddNewSchedule%</target>
+        <jms:reference-file line="3452">/../src/EDUBundle/Controller/DefaultController.php</jms:reference-file>
+        <jms:reference-file line="3542">/../src/EDUBundle/Controller/DefaultController.php</jms:reference-file>
+        <jms:reference-file line="3615">/../src/EDUBundle/Controller/DefaultController.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="cb03a19ae46fc2a7d298e2304cac7be73dd605c6" resname="%AddNewSubject%">
+        <source>%AddNewSubject%</source>
+        <target state="new">%AddNewSubject%</target>
+        <jms:reference-file line="1900">/../src/EDUBundle/Controller/DefaultController.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="3e83bab3d91b0b722d86a8128522e551017ea337" resname="%AddNewsfeed%">
+        <source>%AddNewsfeed%</source>
+        <target state="new">%AddNewsfeed%</target>
+        <jms:reference-file line="1564">/../src/EDUBundle/Controller/DefaultController.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="90813efd1f29ea0d0b800b487a203c260ff43dfc" resname="%AllSchedulesList%">
+        <source>%AllSchedulesList%</source>
+        <target state="new">%AllSchedulesList%</target>
+        <jms:reference-file line="3561">/../src/EDUBundle/Controller/DefaultController.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="d6b4dee2cde9272b50c815894c8821ed2fd35aaa" resname="%AllTasksList%">
+        <source>%AllTasksList%</source>
+        <target state="new">%AllTasksList%</target>
+        <jms:reference-file line="3102">/../src/EDUBundle/Controller/DefaultController.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="9a87e8f764525224b8e2e6ea7f2c66c7cd3f375e" resname="%ClassDeleted%">
+        <source>%ClassDeleted%</source>
+        <target state="new">%ClassDeleted%</target>
+        <jms:reference-file line="1834">/../src/EDUBundle/Controller/DefaultController.php</jms:reference-file>
+        <jms:reference-file line="980">/../src/EDUBundle/Controller/DefaultController.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="97ed438339985c015e8df08c0227c810a1bb18c1" resname="%ClassUpdated%">
+        <source>%ClassUpdated%</source>
+        <target state="new">%ClassUpdated%</target>
+        <jms:reference-file line="882">/../src/EDUBundle/Controller/DefaultController.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="6dc777ddcc69559cf6d564652d799414f39b0e94" resname="%Classes%">
+        <source>%Classes%</source>
+        <target state="new">%Classes%</target>
+        <jms:reference-file line="782">/../src/EDUBundle/Controller/DefaultController.php</jms:reference-file>
+        <jms:reference-file line="835">/../src/EDUBundle/Controller/DefaultController.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="3474895acfabd6e9a4631e17205ada6480149970" resname="%Classesadded%">
+        <source>%Classesadded%</source>
+        <target state="new">%Classesadded%</target>
+        <jms:reference-file line="1189">/../src/EDUBundle/Controller/DefaultController.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="f93bfc408cacda1ce44c2053348b83e6b14cf6dc" resname="%ClsSubMsg%">
+        <source>%ClsSubMsg%</source>
+        <target state="new">%ClsSubMsg%</target>
+        <jms:reference-file line="2187">/../src/EDUBundle/Controller/DefaultController.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="cf802a742fe63c86b4c30b6dd287eaeb64a09d50" resname="%ComposeNewMessage%">
+        <source>%ComposeNewMessage%</source>
+        <target state="new">%ComposeNewMessage%</target>
+        <jms:reference-file line="2484">/../src/EDUBundle/Controller/DefaultController.php</jms:reference-file>
+        <jms:reference-file line="2501">/../src/EDUBundle/Controller/DefaultController.php</jms:reference-file>
+        <jms:reference-file line="2548">/../src/EDUBundle/Controller/DefaultController.php</jms:reference-file>
+        <jms:reference-file line="2566">/../src/EDUBundle/Controller/DefaultController.php</jms:reference-file>
+        <jms:reference-file line="2632">/../src/EDUBundle/Controller/DefaultController.php</jms:reference-file>
+        <jms:reference-file line="2652">/../src/EDUBundle/Controller/DefaultController.php</jms:reference-file>
+        <jms:reference-file line="2795">/../src/EDUBundle/Controller/DefaultController.php</jms:reference-file>
+        <jms:reference-file line="2815">/../src/EDUBundle/Controller/DefaultController.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="93d9f4e53c245ebd27642f1eed08097973691a5b" resname="%DeleteClass%">
+        <source>%DeleteClass%</source>
+        <target state="new">%DeleteClass%</target>
+        <jms:reference-file line="913">/../src/EDUBundle/Controller/DefaultController.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="1da93c84de03d16da305e44ec1598203d9026ba3" resname="%DeleteConfirmation%">
+        <source>%DeleteConfirmation%</source>
+        <target state="new">%DeleteConfirmation%</target>
+        <jms:reference-file line="1811">/../src/EDUBundle/Controller/DefaultController.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="750af95fbf811008820a89a6114674e09f2c1d2b" resname="%DeleteHall%">
+        <source>%DeleteHall%</source>
+        <target state="new">%DeleteHall%</target>
+        <jms:reference-file line="3376">/../src/EDUBundle/Controller/DefaultController.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="66c1b070fd516a2f30c786811aa456c458feb752" resname="%DeleteSchedule%">
+        <source>%DeleteSchedule%</source>
+        <target state="new">%DeleteSchedule%</target>
+        <jms:reference-file line="3717">/../src/EDUBundle/Controller/DefaultController.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="17dae0fc0d128f4b60a33b56e4aba1fbd193e61a" resname="%DeleteSubject%">
+        <source>%DeleteSubject%</source>
+        <target state="new">%DeleteSubject%</target>
+        <jms:reference-file line="1972">/../src/EDUBundle/Controller/DefaultController.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="a39359dd79af702de77da7b850998edc559b376a" resname="%EDIT_MSG%">
+        <source>%EDIT_MSG%</source>
+        <target state="new">%EDIT_MSG%</target>
+        <jms:reference-file line="2388">/../src/EDUBundle/Controller/DefaultController.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="ac461a5ad30fcc096a6e5d709e9a6f6f30cb313b" resname="%EDIT_NTC_SUB%">
+        <source>%EDIT_NTC_SUB%</source>
+        <target state="new">%EDIT_NTC_SUB%</target>
+        <jms:reference-file line="2178">/../src/EDUBundle/Controller/DefaultController.php</jms:reference-file>
+        <jms:reference-file line="2380">/../src/EDUBundle/Controller/DefaultController.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="3c740261c3a483ec906cbad68ff333857ab71e67" resname="%EDIT_SUB%">
+        <source>%EDIT_SUB%</source>
+        <target state="new">%EDIT_SUB%</target>
+        <jms:reference-file line="2386">/../src/EDUBundle/Controller/DefaultController.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="0590fc0f577a91f735be0917fc426a05d27b11da" resname="%EDIT_USER%">
+        <source>%EDIT_USER%</source>
+        <target state="new">%EDIT_USER%</target>
+        <jms:reference-file line="361">/../src/EDUBundle/Controller/DefaultController.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="faba9e778c2f0b2185a85dae78a320491c95b538" resname="%ED_CLS%">
+        <source>%ED_CLS%</source>
+        <target state="new">%ED_CLS%</target>
+        <jms:reference-file line="2290">/../src/EDUBundle/Controller/DefaultController.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="356b32aaac99afcfa5c7325956bcba30a1ad5e2f" resname="%ED_CLS_MSG%">
+        <source>%ED_CLS_MSG%</source>
+        <target state="new">%ED_CLS_MSG%</target>
+        <jms:reference-file line="2292">/../src/EDUBundle/Controller/DefaultController.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="990cbd40159f7b7e8c34dfd526b0ee0b4602f595" resname="%ED_NTC_CLS%">
+        <source>%ED_NTC_CLS%</source>
+        <target state="new">%ED_NTC_CLS%</target>
+        <jms:reference-file line="2284">/../src/EDUBundle/Controller/DefaultController.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="b991e8d66df963f141f73e12e45dbb5a7f3aec40" resname="%EditClass%">
+        <source>%EditClass%</source>
+        <target state="new">%EditClass%</target>
+        <jms:reference-file line="889">/../src/EDUBundle/Controller/DefaultController.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="2982ebdb6e1a994378d9440169e8cb6dcc56d387" resname="%EditHall%">
+        <source>%EditHall%</source>
+        <target state="new">%EditHall%</target>
+        <jms:reference-file line="3355">/../src/EDUBundle/Controller/DefaultController.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="efe13a25184720404d52758de53aa31a3831d38d" resname="%EditNewsfeed%">
+        <source>%EditNewsfeed%</source>
+        <target state="new">%EditNewsfeed%</target>
+        <jms:reference-file line="1789">/../src/EDUBundle/Controller/DefaultController.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="ff9595a3862df50921133896825f51b17ab57ea5" resname="%EditSchedule%">
+        <source>%EditSchedule%</source>
+        <target state="new">%EditSchedule%</target>
+        <jms:reference-file line="3696">/../src/EDUBundle/Controller/DefaultController.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="4610f43fa664782952091c62654d08161b442844" resname="%EditSubject%">
+        <source>%EditSubject%</source>
+        <target state="new">%EditSubject%</target>
+        <jms:reference-file line="1951">/../src/EDUBundle/Controller/DefaultController.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="1c40a6c7509ba9d472482ff1c366b825663c0c18" resname="%EditSubjects%">
+        <source>%EditSubjects%</source>
+        <target state="new">%EditSubjects%</target>
+        <jms:reference-file line="2185">/../src/EDUBundle/Controller/DefaultController.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="14b20ee587bbc1cfe7fbaec73020b361e2eb35c7" resname="%FILE_ATTACH%">
+        <source>%FILE_ATTACH%</source>
+        <target state="new">%FILE_ATTACH%</target>
+        <jms:reference-file line="5077">/../src/EDUBundle/Controller/DefaultController.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="30d6bddc1c5131871049044e21d9f8d5d6c7069b" resname="%FILE_ERR%">
+        <source>%FILE_ERR%</source>
+        <target state="new">%FILE_ERR%</target>
+        <jms:reference-file line="3948">/../src/EDUBundle/Controller/DefaultController.php</jms:reference-file>
+        <jms:reference-file line="4018">/../src/EDUBundle/Controller/DefaultController.php</jms:reference-file>
+        <jms:reference-file line="4110">/../src/EDUBundle/Controller/DefaultController.php</jms:reference-file>
+        <jms:reference-file line="4203">/../src/EDUBundle/Controller/DefaultController.php</jms:reference-file>
+        <jms:reference-file line="4295">/../src/EDUBundle/Controller/DefaultController.php</jms:reference-file>
+        <jms:reference-file line="4416">/../src/EDUBundle/Controller/DefaultController.php</jms:reference-file>
+        <jms:reference-file line="4540">/../src/EDUBundle/Controller/DefaultController.php</jms:reference-file>
+        <jms:reference-file line="4661">/../src/EDUBundle/Controller/DefaultController.php</jms:reference-file>
+        <jms:reference-file line="4783">/../src/EDUBundle/Controller/DefaultController.php</jms:reference-file>
+        <jms:reference-file line="4905">/../src/EDUBundle/Controller/DefaultController.php</jms:reference-file>
+        <jms:reference-file line="5013">/../src/EDUBundle/Controller/DefaultController.php</jms:reference-file>
+        <jms:reference-file line="5066">/../src/EDUBundle/Controller/DefaultController.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="0c678a885b7981c1232d286ab58dc06d7f9276e0" resname="%HallAdded%">
+        <source>%HallAdded%</source>
+        <target state="new">%HallAdded%</target>
+        <jms:reference-file line="3298">/../src/EDUBundle/Controller/DefaultController.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="87b9c829571f667f03c9d455b065167338452972" resname="%HallDeleted%">
+        <source>%HallDeleted%</source>
+        <target state="new">%HallDeleted%</target>
+        <jms:reference-file line="3398">/../src/EDUBundle/Controller/DefaultController.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="0baddd165d6d009bb230432e06dd7595d044d4ec" resname="%HallUpdated%">
+        <source>%HallUpdated%</source>
+        <target state="new">%HallUpdated%</target>
+        <jms:reference-file line="3349">/../src/EDUBundle/Controller/DefaultController.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="e708a6114cd660be993955390a389ee1900f7802" resname="%HallsList%">
+        <source>%HallsList%</source>
+        <target state="new">%HallsList%</target>
+        <jms:reference-file line="3257">/../src/EDUBundle/Controller/DefaultController.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="c96b8ed2576dcfbb3a3090ef072c3e955f60072c" resname="%ImgEmptyErr%">
+        <source>%ImgEmptyErr%</source>
+        <target state="new">%ImgEmptyErr%</target>
+        <jms:reference-file line="1557">/../src/EDUBundle/Controller/DefaultController.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="f3b5389b4183aacd997c7016acd5d0b01a8e4de0" resname="%ImgErr%">
+        <source>%ImgErr%</source>
+        <target state="new">%ImgErr%</target>
+        <jms:reference-file line="1412">/../src/EDUBundle/Controller/DefaultController.php</jms:reference-file>
+        <jms:reference-file line="1666">/../src/EDUBundle/Controller/DefaultController.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="4b06c19e762e5919c878ef95fd6d251582dababb" resname="%ImportCSV%">
+        <source>%ImportCSV%</source>
+        <target state="new">%ImportCSV%</target>
+        <jms:reference-file line="3950">/../src/EDUBundle/Controller/DefaultController.php</jms:reference-file>
+        <jms:reference-file line="4020">/../src/EDUBundle/Controller/DefaultController.php</jms:reference-file>
+        <jms:reference-file line="4112">/../src/EDUBundle/Controller/DefaultController.php</jms:reference-file>
+        <jms:reference-file line="4205">/../src/EDUBundle/Controller/DefaultController.php</jms:reference-file>
+        <jms:reference-file line="4297">/../src/EDUBundle/Controller/DefaultController.php</jms:reference-file>
+        <jms:reference-file line="4418">/../src/EDUBundle/Controller/DefaultController.php</jms:reference-file>
+        <jms:reference-file line="4542">/../src/EDUBundle/Controller/DefaultController.php</jms:reference-file>
+        <jms:reference-file line="4663">/../src/EDUBundle/Controller/DefaultController.php</jms:reference-file>
+        <jms:reference-file line="4785">/../src/EDUBundle/Controller/DefaultController.php</jms:reference-file>
+        <jms:reference-file line="4907">/../src/EDUBundle/Controller/DefaultController.php</jms:reference-file>
+        <jms:reference-file line="5015">/../src/EDUBundle/Controller/DefaultController.php</jms:reference-file>
+        <jms:reference-file line="5068">/../src/EDUBundle/Controller/DefaultController.php</jms:reference-file>
+        <jms:reference-file line="5080">/../src/EDUBundle/Controller/DefaultController.php</jms:reference-file>
+        <jms:reference-file line="5088">/../src/EDUBundle/Controller/DefaultController.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="e95ff56bfe47af6b1fe2708b794844bac5ecc7dd" resname="%Inbox%">
+        <source>%Inbox%</source>
+        <target state="new">%Inbox%</target>
+        <jms:reference-file line="2870">/../src/EDUBundle/Controller/DefaultController.php</jms:reference-file>
+        <jms:reference-file line="3012">/../src/EDUBundle/Controller/DefaultController.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="9692ce3f6c12f3204774e626fdae8cd8b5ebb03c" resname="%MessageLog%">
+        <source>%MessageLog%</source>
+        <target state="new">%MessageLog%</target>
+        <jms:reference-file line="3064">/../src/EDUBundle/Controller/DefaultController.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="c47e6ecd88c28b8ad88422eeaf227e5c0cc93783" resname="%MessageLogs%">
+        <source>%MessageLogs%</source>
+        <target state="new">%MessageLogs%</target>
+        <jms:reference-file line="3033">/../src/EDUBundle/Controller/DefaultController.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="cc754a6114fb3c698af15da8204640b6d9f8e1d6" resname="%MsgSndErr%">
+        <source>%MsgSndErr%</source>
+        <target state="new">%MsgSndErr%</target>
+        <jms:reference-file line="2481">/../src/EDUBundle/Controller/DefaultController.php</jms:reference-file>
+        <jms:reference-file line="2545">/../src/EDUBundle/Controller/DefaultController.php</jms:reference-file>
+        <jms:reference-file line="2629">/../src/EDUBundle/Controller/DefaultController.php</jms:reference-file>
+        <jms:reference-file line="2792">/../src/EDUBundle/Controller/DefaultController.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="aa9fae3a0116374e56d9fa42798ff50b20b010a4" resname="%MsgSndErrImportOK%">
+        <source>%MsgSndErrImportOK%</source>
+        <target state="new">%MsgSndErrImportOK%</target>
+        <jms:reference-file line="4042">/../src/EDUBundle/Controller/DefaultController.php</jms:reference-file>
+        <jms:reference-file line="4134">/../src/EDUBundle/Controller/DefaultController.php</jms:reference-file>
+        <jms:reference-file line="4227">/../src/EDUBundle/Controller/DefaultController.php</jms:reference-file>
+        <jms:reference-file line="4319">/../src/EDUBundle/Controller/DefaultController.php</jms:reference-file>
+        <jms:reference-file line="4442">/../src/EDUBundle/Controller/DefaultController.php</jms:reference-file>
+        <jms:reference-file line="4565">/../src/EDUBundle/Controller/DefaultController.php</jms:reference-file>
+        <jms:reference-file line="4687">/../src/EDUBundle/Controller/DefaultController.php</jms:reference-file>
+        <jms:reference-file line="4809">/../src/EDUBundle/Controller/DefaultController.php</jms:reference-file>
+        <jms:reference-file line="4931">/../src/EDUBundle/Controller/DefaultController.php</jms:reference-file>
+        <jms:reference-file line="5036">/../src/EDUBundle/Controller/DefaultController.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="e5d9d0adce0b74ae873e9627f6099624da6df864" resname="%MsgSnt%">
+        <source>%MsgSnt%</source>
+        <target state="new">%MsgSnt%</target>
+        <jms:reference-file line="2495">/../src/EDUBundle/Controller/DefaultController.php</jms:reference-file>
+        <jms:reference-file line="2560">/../src/EDUBundle/Controller/DefaultController.php</jms:reference-file>
+        <jms:reference-file line="2644">/../src/EDUBundle/Controller/DefaultController.php</jms:reference-file>
+        <jms:reference-file line="2807">/../src/EDUBundle/Controller/DefaultController.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="9c3eba3476e1b57e2afe64e54e971eeec33e021b" resname="%NO_US_ID%">
+        <source>%NO_US_ID%</source>
+        <target state="new">%NO_US_ID%</target>
+        <jms:reference-file line="298">/../src/EDUBundle/Controller/DefaultController.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="ae3f53c85e0019fb37771e18c2bfc2b8bafe2e48" resname="%NewClassAdded%">
+        <source>%NewClassAdded%</source>
+        <target state="new">%NewClassAdded%</target>
+        <jms:reference-file line="826">/../src/EDUBundle/Controller/DefaultController.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="01ef1de3b0c73fa1a5f81d8a61bbc1cc6f62e6fd" resname="%NewSubjectAdded%">
+        <source>%NewSubjectAdded%</source>
+        <target state="new">%NewSubjectAdded%</target>
+        <jms:reference-file line="1894">/../src/EDUBundle/Controller/DefaultController.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="5afbf3ae1c0ad17a04009851e900507daaa999da" resname="%News List%">
+        <source>%News List%</source>
+        <target state="new">%News List%</target>
+        <jms:reference-file line="1584">/../src/EDUBundle/Controller/DefaultController.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="9e5194632c74c8065b88aba4eef54b00a2aa139e" resname="%NewsfeedAdded%">
+        <source>%NewsfeedAdded%</source>
+        <target state="new">%NewsfeedAdded%</target>
+        <jms:reference-file line="1550">/../src/EDUBundle/Controller/DefaultController.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="bb4d06cc95b547d969af9ca26ce223d47eb1d134" resname="%NewsfeedUpdated%">
+        <source>%NewsfeedUpdated%</source>
+        <target state="new">%NewsfeedUpdated%</target>
+        <jms:reference-file line="1783">/../src/EDUBundle/Controller/DefaultController.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="90bad6bc1ef63db863bd55bd76da78507bb547b9" resname="%NewsfeedViewNews%">
+        <source>%NewsfeedViewNews%</source>
+        <target state="new">%NewsfeedViewNews%</target>
+        <jms:reference-file line="1609">/../src/EDUBundle/Controller/DefaultController.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="846cffaae90d04ac9175c454aa024f7251703811" resname="%Outbox%">
+        <source>%Outbox%</source>
+        <target state="new">%Outbox%</target>
+        <jms:reference-file line="2956">/../src/EDUBundle/Controller/DefaultController.php</jms:reference-file>
+        <jms:reference-file line="2992">/../src/EDUBundle/Controller/DefaultController.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="397eb9b4e5695eb625060231cd25b4ee8575eb65" resname="%PARENT%">
+        <source>%PARENT%</source>
+        <target state="new">%PARENT%</target>
+        <jms:reference-file line="465">/../src/EDUBundle/Controller/DefaultController.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="4c84c0115f3461d9d3c749c924f37fb26cb63165" resname="%STUDENTS%">
+        <source>%STUDENTS%</source>
+        <target state="new">%STUDENTS%</target>
+        <jms:reference-file line="440">/../src/EDUBundle/Controller/DefaultController.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="f54c31ba6f2fb9d27991ee36a2c1f8a0f2b2162b" resname="%SUBS_ADDED%">
+        <source>%SUBS_ADDED%</source>
+        <target state="new">%SUBS_ADDED%</target>
+        <jms:reference-file line="2079">/../src/EDUBundle/Controller/DefaultController.php</jms:reference-file>
+        <jms:reference-file line="2439">/../src/EDUBundle/Controller/DefaultController.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="d0f4d023394dabfd8dc7f1c75af0a831306bccf1" resname="%SUB_ADDED_MSG%">
+        <source>%SUB_ADDED_MSG%</source>
+        <target state="new">%SUB_ADDED_MSG%</target>
+        <jms:reference-file line="2434">/../src/EDUBundle/Controller/DefaultController.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="64b8df9db1f0d3539bbb86cdacf72ad6b02d5aac" resname="%ScheduleAdded%">
+        <source>%ScheduleAdded%</source>
+        <target state="new">%ScheduleAdded%</target>
+        <jms:reference-file line="3535">/../src/EDUBundle/Controller/DefaultController.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="5509ad66d4fe4a6f639c09a21c9db0b3f3fd8a36" resname="%ScheduleDeleted%">
+        <source>%ScheduleDeleted%</source>
+        <target state="new">%ScheduleDeleted%</target>
+        <jms:reference-file line="3756">/../src/EDUBundle/Controller/DefaultController.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="a046c2d110b8a6fde2ddd3cd674161f8bb57597c" resname="%ScheduleUpdated%">
+        <source>%ScheduleUpdated%</source>
+        <target state="new">%ScheduleUpdated%</target>
+        <jms:reference-file line="3690">/../src/EDUBundle/Controller/DefaultController.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="c64c8bb41c4fa91bab4801a2e8cb3f4d44ebb8ec" resname="%SchedulesbyClasses%">
+        <source>%SchedulesbyClasses%</source>
+        <target state="new">%SchedulesbyClasses%</target>
+        <jms:reference-file line="3773">/../src/EDUBundle/Controller/DefaultController.php</jms:reference-file>
+        <jms:reference-file line="3793">/../src/EDUBundle/Controller/DefaultController.php</jms:reference-file>
+        <jms:reference-file line="3834">/../src/EDUBundle/Controller/DefaultController.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="ea73bd5ce75bc3b4ed5b9e162b9a0a5da5c47002" resname="%SchedulesbySubjects%">
+        <source>%SchedulesbySubjects%</source>
+        <target state="new">%SchedulesbySubjects%</target>
+        <jms:reference-file line="3855">/../src/EDUBundle/Controller/DefaultController.php</jms:reference-file>
+        <jms:reference-file line="3876">/../src/EDUBundle/Controller/DefaultController.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="b0c147c1389e04307d63130d83fb73a32086b9a8" resname="%SchedulesbyTeachers%">
+        <source>%SchedulesbyTeachers%</source>
+        <target state="new">%SchedulesbyTeachers%</target>
+        <jms:reference-file line="3814">/../src/EDUBundle/Controller/DefaultController.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="153ade056bf89020a0b39eec2e41e55929bddfe3" resname="%StudentUpdated%">
+        <source>%StudentUpdated%</source>
+        <target state="new">%StudentUpdated%</target>
+        <jms:reference-file line="1047">/../src/EDUBundle/Controller/DefaultController.php</jms:reference-file>
+        <jms:reference-file line="1104">/../src/EDUBundle/Controller/DefaultController.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="d1129fb644bf3241cd50fc2a9f79736aaf96a57c" resname="%SubAddedWr%">
+        <source>%SubAddedWr%</source>
+        <target state="new">%SubAddedWr%</target>
+        <jms:reference-file line="2074">/../src/EDUBundle/Controller/DefaultController.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="b3d73499faca4781f76559f5fd93f6f9b857a50d" resname="%Subject Updated%">
+        <source>%Subject Updated%</source>
+        <target state="new">%Subject Updated%</target>
+        <jms:reference-file line="1943">/../src/EDUBundle/Controller/DefaultController.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="a23b4169724f76134edd430d8eecdb47e732a29d" resname="%SubjectDeleted%">
+        <source>%SubjectDeleted%</source>
+        <target state="new">%SubjectDeleted%</target>
+        <jms:reference-file line="2024">/../src/EDUBundle/Controller/DefaultController.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="c027048ac8ce114c62d404a25d8b9d71cd65c183" resname="%Subjects%">
+        <source>%Subjects%</source>
+        <target state="new">%Subjects%</target>
+        <jms:reference-file line="1855">/../src/EDUBundle/Controller/DefaultController.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="91ae9883a19e12ae60297d1cee1ad9d526231838" resname="%TEACHERS%">
+        <source>%TEACHERS%</source>
+        <target state="new">%TEACHERS%</target>
+        <jms:reference-file line="387">/../src/EDUBundle/Controller/DefaultController.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="7447086c47cdb8c0d4e8b140491f16a5d5af8a06" resname="%TasksList%">
+        <source>%TasksList%</source>
+        <target state="new">%TasksList%</target>
+        <jms:reference-file line="3182">/../src/EDUBundle/Controller/DefaultController.php</jms:reference-file>
+        <jms:reference-file line="3235">/../src/EDUBundle/Controller/DefaultController.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="e09052a8e515c1980c4dab6326139334845c9e58" resname="%USER%">
+        <source>%USER%</source>
+        <target state="new">%USER%</target>
+        <jms:reference-file line="148">/../src/EDUBundle/Controller/DefaultController.php</jms:reference-file>
+        <jms:reference-file line="168">/../src/EDUBundle/Controller/DefaultController.php</jms:reference-file>
+        <jms:reference-file line="189">/../src/EDUBundle/Controller/DefaultController.php</jms:reference-file>
+        <jms:reference-file line="210">/../src/EDUBundle/Controller/DefaultController.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="20cc6f3121e3a24c15f8b40007e3fb27bde20faf" resname="%USERS%">
+        <source>%USERS%</source>
+        <target state="new">%USERS%</target>
+        <jms:reference-file line="114">/../src/EDUBundle/Controller/DefaultController.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="9103a88fba3a172857e385630bfb7046c2849c1e" resname="%USER_ADDED%">
+        <source>%USER_ADDED%</source>
+        <target state="new">%USER_ADDED%</target>
+        <jms:reference-file line="269">/../src/EDUBundle/Controller/DefaultController.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="815a5a3dfa1264514ff20623ad03b2db51c2a974" resname="%US_UD%">
+        <source>%US_UD%</source>
+        <target state="new">%US_UD%</target>
+        <jms:reference-file line="353">/../src/EDUBundle/Controller/DefaultController.php</jms:reference-file>
+        <jms:reference-file line="581">/../src/EDUBundle/Controller/DefaultController.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="44c23493ef4590e2b056736a0c1b836fd0227d0e" resname="%UpdateStudent%">
+        <source>%UpdateStudent%</source>
+        <target state="new">%UpdateStudent%</target>
+        <jms:reference-file line="1113">/../src/EDUBundle/Controller/DefaultController.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="cf93fd4b77ac186292921033024083e4d805589d" resname="%User%">
+        <source>%User%</source>
+        <target state="new">%User%</target>
+        <jms:reference-file line="616">/../src/EDUBundle/Controller/DefaultController.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="2e35fc71b9d3b5367368f57cedf46ab24e2e79f1" resname="%ViewTask%">
+        <source>%ViewTask%</source>
+        <target state="new">%ViewTask%</target>
+        <jms:reference-file line="3131">/../src/EDUBundle/Controller/DefaultController.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="0cd2425361ff16ff204b7a758c05abee74c70198" resname="%ViewTbySubjects%">
+        <source>%ViewTbySubjects%</source>
+        <target state="new">%ViewTbySubjects%</target>
+        <jms:reference-file line="3150">/../src/EDUBundle/Controller/DefaultController.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="9927178ee573c6dc7b3aa2f0cb0de0f268f49c23" resname="%ViewTbyTeachers%">
+        <source>%ViewTbyTeachers%</source>
+        <target state="new">%ViewTbyTeachers%</target>
+        <jms:reference-file line="3203">/../src/EDUBundle/Controller/DefaultController.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="c3cd636a585b20c40ac2df5ffb403e83cb2eef51" resname="Actions">
+        <source>Actions</source>
+        <target state="new">Actions</target>
+        <jms:reference-file line="15">/../src/EDUBundle/Resources/views/class/layout_all_classes.html.twig</jms:reference-file>
+        <jms:reference-file line="15">/../src/EDUBundle/Resources/views/halls/layout_all_halls.html.twig</jms:reference-file>
+        <jms:reference-file line="18">/../src/EDUBundle/Resources/views/newsfeed/layout_all_news.html.twig</jms:reference-file>
+        <jms:reference-file line="14">/../src/EDUBundle/Resources/views/schedule/layout_all_schedule.html.twig</jms:reference-file>
+        <jms:reference-file line="15">/../src/EDUBundle/Resources/views/subjects/layout_all_subjects.html.twig</jms:reference-file>
+        <jms:reference-file line="23">/../src/EDUBundle/Resources/views/users/layout_all_users.html.twig</jms:reference-file>
+        <jms:reference-file line="16">/../src/EDUBundle/Resources/views/users/layout_parents_users.html.twig</jms:reference-file>
+        <jms:reference-file line="16">/../src/EDUBundle/Resources/views/users/layout_students_users.html.twig</jms:reference-file>
+        <jms:reference-file line="16">/../src/EDUBundle/Resources/views/users/layout_teaches_users.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="76c09d5fac81040fff2512748ee80e79f8214199" resname="Add New Class">
+        <source>Add New Class</source>
+        <target state="new">Add New Class</target>
+        <jms:reference-file line="6">/../src/EDUBundle/Resources/views/class/layout_all_classes.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="ac0fe3dbf9b2f1b1eb90e38ecbe07866f50ebe9d" resname="Add New Hall">
+        <source>Add New Hall</source>
+        <target state="new">Add New Hall</target>
+        <jms:reference-file line="196">/../src/EDUBundle/Resources/views/Includes/menu.html.twig</jms:reference-file>
+        <jms:reference-file line="6">/../src/EDUBundle/Resources/views/halls/layout_all_halls.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="62f21eeee3018270816b7c58a50481b9f5a3f21e" resname="Add New Schedule">
+        <source>Add New Schedule</source>
+        <target state="new">Add New Schedule</target>
+        <jms:reference-file line="171">/../src/EDUBundle/Resources/views/Includes/menu.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="8773a4af263626c9156db4f2d254c0d67007e114" resname="Add New Subject">
+        <source>Add New Subject</source>
+        <target state="new">Add New Subject</target>
+        <jms:reference-file line="6">/../src/EDUBundle/Resources/views/subjects/layout_all_subjects.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="92b58c84879dacfc4124d64d74fc92d070157099" resname="Add New User">
+        <source>Add New User</source>
+        <target state="new">Add New User</target>
+        <jms:reference-file line="67">/../src/EDUBundle/Resources/views/Includes/menu.html.twig</jms:reference-file>
+        <jms:reference-file line="6">/../src/EDUBundle/Resources/views/users/layout_all_users.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="f1563ce5c0083b6d8fa2bf18fb062c0167558c6d" resname="Add News">
+        <source>Add News</source>
+        <target state="new">Add News</target>
+        <jms:reference-file line="105">/../src/EDUBundle/Resources/views/Includes/menu.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="792e1c9d48a357428edb9a008e5795f75e2b5298" resname="Add Newsfeed">
+        <source>Add Newsfeed</source>
+        <target state="new">Add Newsfeed</target>
+        <jms:reference-file line="6">/../src/EDUBundle/Resources/views/newsfeed/layout_all_news.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="6c158ab2b9dc84044f7b96bf5cfd6acc889d1941" resname="Add Schedule">
+        <source>Add Schedule</source>
+        <target state="new">Add Schedule</target>
+        <jms:reference-file line="6">/../src/EDUBundle/Resources/views/schedule/layout_all_schedule.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="c1dbe4ae746e93eb038b3ebcc99a4ffd2e23aba7" resname="Add Suject">
+        <source>Add Suject</source>
+        <target state="new">Add Suject</target>
+        <jms:reference-file line="117">/../src/EDUBundle/Resources/views/Includes/menu.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="75a4b633a09baf6e3a808bafcffc177b185de6fe" resname="Added by">
+        <source>Added by</source>
+        <target state="new">Added by</target>
+        <jms:reference-file line="47">/../src/EDUBundle/Resources/views/newsfeed/layout_news_view.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="0e75c6a2260ca48552cd58cc7cd818490dfa5c52" resname="All Classes">
+        <source>All Classes</source>
+        <target state="new">All Classes</target>
+        <jms:reference-file line="96">/../src/EDUBundle/Resources/views/Includes/menu.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="93886de7519a56a229115ae4f92a7c7966be46f9" resname="All News">
+        <source>All News</source>
+        <target state="new">All News</target>
+        <jms:reference-file line="108">/../src/EDUBundle/Resources/views/Includes/menu.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="eb4859b647cdd8fc06a3e25e82a4925869ad6f85" resname="All Schedule">
+        <source>All Schedule</source>
+        <target state="new">All Schedule</target>
+        <jms:reference-file line="176">/../src/EDUBundle/Resources/views/Includes/menu.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="d58e00e939466cb7761cff06fffa786b5ecc0fe3" resname="All Subjects">
+        <source>All Subjects</source>
+        <target state="new">All Subjects</target>
+        <jms:reference-file line="120">/../src/EDUBundle/Resources/views/Includes/menu.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="7b9ff838019db5ead18883e3432af81a4ae3aa6a" resname="All Tasks">
+        <source>All Tasks</source>
+        <target state="new">All Tasks</target>
+        <jms:reference-file line="7">/../src/EDUBundle/Resources/views/tasks/layout_tasks_view.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="b4f25a14263364e190fac1252029831005b600df" resname="All Users">
+        <source>All Users</source>
+        <target state="new">All Users</target>
+        <jms:reference-file line="72">/../src/EDUBundle/Resources/views/Includes/menu.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="42b20413939262092e44bea4bbd4ead8126933eb" resname="Are you sure to delete">
+        <source>Are you sure to delete</source>
+        <target state="new">Are you sure to delete</target>
+        <jms:reference-file line="9">/../src/EDUBundle/Resources/views/class/layout_class_delete.html.twig</jms:reference-file>
+        <jms:reference-file line="9">/../src/EDUBundle/Resources/views/newsfeed/layout_news_delete.html.twig</jms:reference-file>
+        <jms:reference-file line="9">/../src/EDUBundle/Resources/views/schedule/layout_schedule_delete.html.twig</jms:reference-file>
+        <jms:reference-file line="9">/../src/EDUBundle/Resources/views/users/layout_user_delete.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="d5b94b620f91853711c9e0d8e800ec79c981b50b" resname="Are you sure to delete subject">
+        <source>Are you sure to delete subject</source>
+        <target state="new">Are you sure to delete subject</target>
+        <jms:reference-file line="9">/../src/EDUBundle/Resources/views/subjects/layout_subjects_delete.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="47d5f04ac2604c904b758f51e5794434655cec41" resname="By Classes">
+        <source>By Classes</source>
+        <target state="new">By Classes</target>
+        <jms:reference-file line="179">/../src/EDUBundle/Resources/views/Includes/menu.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="0efe5dce5f7bec2cf3c71cd347ad454afd7affc9" resname="By Subjects">
+        <source>By Subjects</source>
+        <target state="new">By Subjects</target>
+        <jms:reference-file line="158">/../src/EDUBundle/Resources/views/Includes/menu.html.twig</jms:reference-file>
+        <jms:reference-file line="185">/../src/EDUBundle/Resources/views/Includes/menu.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="e590e3f4c720888d6213cad557e870777fac796d" resname="By Teachers">
+        <source>By Teachers</source>
+        <target state="new">By Teachers</target>
+        <jms:reference-file line="161">/../src/EDUBundle/Resources/views/Includes/menu.html.twig</jms:reference-file>
+        <jms:reference-file line="182">/../src/EDUBundle/Resources/views/Includes/menu.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="24e9e5dcb87bb45ec64fb3a628f1500a30b6e416" resname="CSV File">
+        <source>CSV File</source>
+        <target state="new">CSV File</target>
+        <jms:reference-file line="3923">/../src/EDUBundle/Controller/DefaultController.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="1ead471580317b8f7dc229eabf5bc396160a6922" resname="CSV Files">
+        <source>CSV Files</source>
+        <target state="new">CSV Files</target>
+        <jms:reference-file line="211">/../src/EDUBundle/Resources/views/Includes/menu.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="41ff354b2b330bd1f8a0587675e43cb32a731f33" resname="Class">
+        <source>Class</source>
+        <target state="new">Class</target>
+        <jms:reference-file line="47">/../src/EDUBundle/Form/ScheduleType.php</jms:reference-file>
+        <jms:reference-file line="13">/../src/EDUBundle/Resources/views/schedule/layout_all_schedule.html.twig</jms:reference-file>
+        <jms:reference-file line="18">/../src/EDUBundle/Resources/views/schedule/layout_schedule_delete.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="d68417418b55e6ec2860f3587d7215f051cfd832" resname="Class &amp; Subject Import details">
+        <source><![CDATA[Class & Subject Import details]]></source>
+        <target state="new"><![CDATA[Class & Subject Import details]]></target>
+        <jms:reference-file line="4675">/../src/EDUBundle/Controller/DefaultController.php</jms:reference-file>
+        <jms:reference-file line="4797">/../src/EDUBundle/Controller/DefaultController.php</jms:reference-file>
+        <jms:reference-file line="4919">/../src/EDUBundle/Controller/DefaultController.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="30296e28106af52c09227a6ef2d662e62649292c" resname="Class &amp; Subjects">
+        <source><![CDATA[Class & Subjects]]></source>
+        <target state="new"><![CDATA[Class & Subjects]]></target>
+        <jms:reference-file line="3909">/../src/EDUBundle/Controller/DefaultController.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="cbcc6ed49236a4a85325c635068a1f2862ea2632" resname="Class &amp; Teacher">
+        <source><![CDATA[Class & Teacher]]></source>
+        <target state="new"><![CDATA[Class & Teacher]]></target>
+        <jms:reference-file line="3910">/../src/EDUBundle/Controller/DefaultController.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="7ae0127291218216ff9bb4d88f31f63c5e1d4a4f" resname="Class ID">
+        <source>Class ID</source>
+        <target state="new">Class ID</target>
+        <jms:reference-file line="13">/../src/EDUBundle/Resources/views/class/layout_all_classes.html.twig</jms:reference-file>
+        <jms:reference-file line="18">/../src/EDUBundle/Resources/views/class/layout_class_delete.html.twig</jms:reference-file>
+        <jms:reference-file line="12">/../src/EDUBundle/Resources/views/schedule/layout_schedule_classes.html.twig</jms:reference-file>
+        <jms:reference-file line="18">/../src/EDUBundle/Resources/views/subjects/layout_subjects_delete.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="23e735f2e42f0ee01fd065b66b276180dd776b09" resname="Class Name">
+        <source>Class Name</source>
+        <target state="new">Class Name</target>
+        <jms:reference-file line="14">/../src/EDUBundle/Resources/views/class/layout_all_classes.html.twig</jms:reference-file>
+        <jms:reference-file line="26">/../src/EDUBundle/Resources/views/class/layout_class_delete.html.twig</jms:reference-file>
+        <jms:reference-file line="13">/../src/EDUBundle/Resources/views/schedule/layout_schedule_classes.html.twig</jms:reference-file>
+        <jms:reference-file line="26">/../src/EDUBundle/Resources/views/subjects/layout_subjects_delete.html.twig</jms:reference-file>
+        <jms:reference-file line="13">/../src/EDUBundle/Resources/views/users/layout_students_users.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="ed1846afee3be21521286932b99e2aeae9e6414a" resname="Classes">
+        <source>Classes</source>
+        <target state="new">Classes</target>
+        <jms:reference-file line="3904">/../src/EDUBundle/Controller/DefaultController.php</jms:reference-file>
+        <jms:reference-file line="90">/../src/EDUBundle/Resources/views/Includes/menu.html.twig</jms:reference-file>
+        <jms:reference-file line="32">/../src/EDUBundle/Resources/views/users/layout_teaches_users.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="09f7b7783ffb4cf0289189f0c573ee3ab63d2e19" resname="Classes Import details">
+        <source>Classes Import details</source>
+        <target state="new">Classes Import details</target>
+        <jms:reference-file line="4124">/../src/EDUBundle/Controller/DefaultController.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="47da6f0838f083d3a01f384d483b468a305c5a2c" resname="Compose">
+        <source>Compose</source>
+        <target state="new">Compose</target>
+        <jms:reference-file line="130">/../src/EDUBundle/Resources/views/Includes/menu.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="4f9be057f0ea5d2ba72fd2c810e8d7b9aa98b469" resname="Content">
+        <source>Content</source>
+        <target state="new">Content</target>
+        <jms:reference-file line="15">/../src/EDUBundle/Resources/views/messages/layout_inbox_messages.html.twig</jms:reference-file>
+        <jms:reference-file line="13">/../src/EDUBundle/Resources/views/messages/layout_logs_view.html.twig</jms:reference-file>
+        <jms:reference-file line="13">/../src/EDUBundle/Resources/views/messages/layout_outbox_view.html.twig</jms:reference-file>
+        <jms:reference-file line="14">/../src/EDUBundle/Resources/views/newsfeed/layout_all_news.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="f12dd1134c1af88fc3848af189be28e9e6c9f427" resname="Current Class">
+        <source>Current Class</source>
+        <target state="new">Current Class</target>
+        <jms:reference-file line="21">/../src/EDUBundle/Resources/views/student/layout_student_update.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="96ad3572482144411dd2717e1f9a6c4b8006c4bf" resname="Current Parent">
+        <source>Current Parent</source>
+        <target state="new">Current Parent</target>
+        <jms:reference-file line="29">/../src/EDUBundle/Resources/views/student/layout_student_update.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="ab7f244fc5171be63484d8e40c59808ea2c3e492" resname="Data Type">
+        <source>Data Type</source>
+        <target state="new">Data Type</target>
+        <jms:reference-file line="3915">/../src/EDUBundle/Controller/DefaultController.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="eb9a4bc1c0c153e4e4b042a79113b815b7e3021d" resname="Date">
+        <source>Date</source>
+        <target state="new">Date</target>
+        <jms:reference-file line="17">/../src/EDUBundle/Resources/views/messages/layout_inbox_messages.html.twig</jms:reference-file>
+        <jms:reference-file line="15">/../src/EDUBundle/Resources/views/messages/layout_logs_view.html.twig</jms:reference-file>
+        <jms:reference-file line="15">/../src/EDUBundle/Resources/views/messages/layout_outbox_view.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="2aafad40063bdb20757ad69b9fc9e0a06d6ca1c1" resname="Date Added">
+        <source>Date Added</source>
+        <target state="new">Date Added</target>
+        <jms:reference-file line="15">/../src/EDUBundle/Resources/views/newsfeed/layout_all_news.html.twig</jms:reference-file>
+        <jms:reference-file line="42">/../src/EDUBundle/Resources/views/newsfeed/layout_news_delete.html.twig</jms:reference-file>
+        <jms:reference-file line="39">/../src/EDUBundle/Resources/views/newsfeed/layout_news_view.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="f6fdbe48dc54dd86f63097a03bd24094dedd713a" resname="Delete">
+        <source>Delete</source>
+        <target state="new">Delete</target>
+        <jms:reference-file line="33">/../src/EDUBundle/Resources/views/class/layout_all_classes.html.twig</jms:reference-file>
+        <jms:reference-file line="29">/../src/EDUBundle/Resources/views/halls/layout_all_halls.html.twig</jms:reference-file>
+        <jms:reference-file line="36">/../src/EDUBundle/Resources/views/newsfeed/layout_all_news.html.twig</jms:reference-file>
+        <jms:reference-file line="27">/../src/EDUBundle/Resources/views/schedule/layout_all_schedule.html.twig</jms:reference-file>
+        <jms:reference-file line="29">/../src/EDUBundle/Resources/views/subjects/layout_all_subjects.html.twig</jms:reference-file>
+        <jms:reference-file line="46">/../src/EDUBundle/Resources/views/users/layout_all_users.html.twig</jms:reference-file>
+        <jms:reference-file line="66">/../src/EDUBundle/Resources/views/users/layout_all_users.html.twig</jms:reference-file>
+        <jms:reference-file line="32">/../src/EDUBundle/Resources/views/users/layout_parents_users.html.twig</jms:reference-file>
+        <jms:reference-file line="37">/../src/EDUBundle/Resources/views/users/layout_students_users.html.twig</jms:reference-file>
+        <jms:reference-file line="41">/../src/EDUBundle/Resources/views/users/layout_teaches_users.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="55f8ebc805e65b5b71ddafdae390e3be2bcd69af" resname="Description">
+        <source>Description</source>
+        <target state="new">Description</target>
+        <jms:reference-file line="13">/../src/EDUBundle/Resources/views/tasks/layout_tasks_list.html.twig</jms:reference-file>
+        <jms:reference-file line="23">/../src/EDUBundle/Resources/views/tasks/layout_tasks_view.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="a1b308ec704aed240db754a1862adcf67e19f001" resname="Due Date">
+        <source>Due Date</source>
+        <target state="new">Due Date</target>
+        <jms:reference-file line="14">/../src/EDUBundle/Resources/views/tasks/layout_tasks_list.html.twig</jms:reference-file>
+        <jms:reference-file line="31">/../src/EDUBundle/Resources/views/tasks/layout_tasks_view.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="334a85f1b16e32b6ba9a69313c6f584edef482cc" resname="Dutch">
+        <source>Dutch</source>
+        <target state="new">Dutch</target>
+        <jms:reference-file line="77">/../src/EDUBundle/Form/UserEditType.php</jms:reference-file>
+        <jms:reference-file line="97">/../src/EDUBundle/Form/UserType.php</jms:reference-file>
+        <jms:reference-file line="27">/../src/EDUBundle/Resources/views/Includes/menu.html.twig</jms:reference-file>
+        <jms:reference-file line="29">/../src/EDUBundle/Resources/views/Includes/menu.html.twig</jms:reference-file>
+        <jms:reference-file line="44">/../src/EDUBundle/Resources/views/Includes/menu.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="5301648dcf6b53cefc9ed52999aaa92d4603cae0" resname="Edit">
+        <source>Edit</source>
+        <target state="new">Edit</target>
+        <jms:reference-file line="32">/../src/EDUBundle/Resources/views/class/layout_all_classes.html.twig</jms:reference-file>
+        <jms:reference-file line="28">/../src/EDUBundle/Resources/views/halls/layout_all_halls.html.twig</jms:reference-file>
+        <jms:reference-file line="35">/../src/EDUBundle/Resources/views/newsfeed/layout_all_news.html.twig</jms:reference-file>
+        <jms:reference-file line="7">/../src/EDUBundle/Resources/views/newsfeed/layout_news_view.html.twig</jms:reference-file>
+        <jms:reference-file line="26">/../src/EDUBundle/Resources/views/schedule/layout_all_schedule.html.twig</jms:reference-file>
+        <jms:reference-file line="28">/../src/EDUBundle/Resources/views/subjects/layout_all_subjects.html.twig</jms:reference-file>
+        <jms:reference-file line="45">/../src/EDUBundle/Resources/views/users/layout_all_users.html.twig</jms:reference-file>
+        <jms:reference-file line="65">/../src/EDUBundle/Resources/views/users/layout_all_users.html.twig</jms:reference-file>
+        <jms:reference-file line="7">/../src/EDUBundle/Resources/views/users/layout_parent_info.html.twig</jms:reference-file>
+        <jms:reference-file line="31">/../src/EDUBundle/Resources/views/users/layout_parents_users.html.twig</jms:reference-file>
+        <jms:reference-file line="7">/../src/EDUBundle/Resources/views/users/layout_student_info.html.twig</jms:reference-file>
+        <jms:reference-file line="36">/../src/EDUBundle/Resources/views/users/layout_students_users.html.twig</jms:reference-file>
+        <jms:reference-file line="7">/../src/EDUBundle/Resources/views/users/layout_teacher_info.html.twig</jms:reference-file>
+        <jms:reference-file line="40">/../src/EDUBundle/Resources/views/users/layout_teaches_users.html.twig</jms:reference-file>
+        <jms:reference-file line="7">/../src/EDUBundle/Resources/views/users/layout_user_info.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="84add5b2952787581cb9a8851eef63d1ec75d22b" resname="Email">
+        <source>Email</source>
+        <target state="new">Email</target>
+        <jms:reference-file line="53">/../src/EDUBundle/Resources/views/student/layout_student_update.html.twig</jms:reference-file>
+        <jms:reference-file line="19">/../src/EDUBundle/Resources/views/users/layout_all_users.html.twig</jms:reference-file>
+        <jms:reference-file line="31">/../src/EDUBundle/Resources/views/users/layout_parent_info.html.twig</jms:reference-file>
+        <jms:reference-file line="13">/../src/EDUBundle/Resources/views/users/layout_parents_users.html.twig</jms:reference-file>
+        <jms:reference-file line="31">/../src/EDUBundle/Resources/views/users/layout_student_info.html.twig</jms:reference-file>
+        <jms:reference-file line="31">/../src/EDUBundle/Resources/views/users/layout_teacher_info.html.twig</jms:reference-file>
+        <jms:reference-file line="13">/../src/EDUBundle/Resources/views/users/layout_teaches_users.html.twig</jms:reference-file>
+        <jms:reference-file line="34">/../src/EDUBundle/Resources/views/users/layout_user_delete.html.twig</jms:reference-file>
+        <jms:reference-file line="31">/../src/EDUBundle/Resources/views/users/layout_user_info.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="649df08a448ee3fa90f3746baaf6b0907df42c91" resname="English">
+        <source>English</source>
+        <target state="new">English</target>
+        <jms:reference-file line="76">/../src/EDUBundle/Form/UserEditType.php</jms:reference-file>
+        <jms:reference-file line="96">/../src/EDUBundle/Form/UserType.php</jms:reference-file>
+        <jms:reference-file line="35">/../src/EDUBundle/Resources/views/Includes/menu.html.twig</jms:reference-file>
+        <jms:reference-file line="37">/../src/EDUBundle/Resources/views/Includes/menu.html.twig</jms:reference-file>
+        <jms:reference-file line="46">/../src/EDUBundle/Resources/views/Includes/menu.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="7f2f6a15cf8da2b27e5a4af47b58e7ad71c0b3d9" resname="Error">
+        <source>Error</source>
+        <target state="new">Error</target>
+        <jms:reference-file line="20">/../src/EDUBundle/Resources/views/layout.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="44389f6a466eaabf5c1db729e369511134e2b03b" resname="French">
+        <source>French</source>
+        <target state="new">French</target>
+        <jms:reference-file line="75">/../src/EDUBundle/Form/UserEditType.php</jms:reference-file>
+        <jms:reference-file line="95">/../src/EDUBundle/Form/UserType.php</jms:reference-file>
+        <jms:reference-file line="19">/../src/EDUBundle/Resources/views/Includes/menu.html.twig</jms:reference-file>
+        <jms:reference-file line="21">/../src/EDUBundle/Resources/views/Includes/menu.html.twig</jms:reference-file>
+        <jms:reference-file line="42">/../src/EDUBundle/Resources/views/Includes/menu.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="3f66052a107eaf9bae7cad0f61fb462f47ec2c47" resname="From">
+        <source>From</source>
+        <target state="new">From</target>
+        <jms:reference-file line="31">/../src/EDUBundle/Resources/views/messages/layout_inbox_view.html.twig</jms:reference-file>
+        <jms:reference-file line="31">/../src/EDUBundle/Resources/views/messages/layout_log_view.html.twig</jms:reference-file>
+        <jms:reference-file line="14">/../src/EDUBundle/Resources/views/messages/layout_logs_view.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="f03e2d07687c3f501c6eacf30e658f457a05be25" resname="Go Back">
+        <source>Go Back</source>
+        <target state="new">Go Back</target>
+        <jms:reference-file line="6">/../src/EDUBundle/Resources/views/newsfeed/layout_news_view.html.twig</jms:reference-file>
+        <jms:reference-file line="6">/../src/EDUBundle/Resources/views/users/layout_parent_info.html.twig</jms:reference-file>
+        <jms:reference-file line="6">/../src/EDUBundle/Resources/views/users/layout_student_info.html.twig</jms:reference-file>
+        <jms:reference-file line="6">/../src/EDUBundle/Resources/views/users/layout_teacher_info.html.twig</jms:reference-file>
+        <jms:reference-file line="6">/../src/EDUBundle/Resources/views/users/layout_user_info.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="5b404b666edd103056431ea1fdf406fe584aef1e" resname="Hall ID">
+        <source>Hall ID</source>
+        <target state="new">Hall ID</target>
+        <jms:reference-file line="13">/../src/EDUBundle/Resources/views/halls/layout_all_halls.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="067f181ac7181ec2253e0d6af769f384cbcc09fb" resname="Hall List">
+        <source>Hall List</source>
+        <target state="new">Hall List</target>
+        <jms:reference-file line="201">/../src/EDUBundle/Resources/views/Includes/menu.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="10707c3fde5a05652f97bca4deca2af141aa307a" resname="Hall Name">
+        <source>Hall Name</source>
+        <target state="new">Hall Name</target>
+        <jms:reference-file line="14">/../src/EDUBundle/Resources/views/halls/layout_all_halls.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="bd734aa0af8b1e6a1fa5c6f736f6dacee12737b7" resname="Halls">
+        <source>Halls</source>
+        <target state="new">Halls</target>
+        <jms:reference-file line="3906">/../src/EDUBundle/Controller/DefaultController.php</jms:reference-file>
+        <jms:reference-file line="192">/../src/EDUBundle/Resources/views/Includes/menu.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="ff1b25eb8f6fb5e80ba07f8f751af55ea5cc16f2" resname="Halls Import details">
+        <source>Halls Import details</source>
+        <target state="new">Halls Import details</target>
+        <jms:reference-file line="4309">/../src/EDUBundle/Controller/DefaultController.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="50e19fda0d5b4b74a4a1a1d584e56578693a4ea4" resname="Image">
+        <source>Image</source>
+        <target state="new">Image</target>
+        <jms:reference-file line="34">/../src/EDUBundle/Resources/views/newsfeed/layout_news_delete.html.twig</jms:reference-file>
+        <jms:reference-file line="31">/../src/EDUBundle/Resources/views/newsfeed/layout_news_view.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="d6fbc9d2bdd580e18ed0bc5805dc26db323d6f5f" resname="Import">
+        <source>Import</source>
+        <target state="new">Import</target>
+        <jms:reference-file line="208">/../src/EDUBundle/Resources/views/Includes/menu.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="b28478ac82b91935f969cb80fbbe7cb1d7f7bc79" resname="Import Users">
+        <source>Import Users</source>
+        <target state="new">Import Users</target>
+        <jms:reference-file line="9">/../src/EDUBundle/Resources/views/users/layout_all_users.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="44caf74675ceb79ba5cc13bafa102509369c2b53" resname="Inbox">
+        <source>Inbox</source>
+        <target state="new">Inbox</target>
+        <jms:reference-file line="140">/../src/EDUBundle/Resources/views/Includes/menu.html.twig</jms:reference-file>
+        <jms:reference-file line="7">/../src/EDUBundle/Resources/views/messages/layout_inbox_view.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="4b631f69842530d659306c8f06dbad594a6b1807" resname="Info">
+        <source>Info</source>
+        <target state="new">Info</target>
+        <jms:reference-file line="17">/../src/EDUBundle/Resources/views/layout.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="75fdcfe353ca0a76e372d3403922e5fcfdce2806" resname="Inserted rows: %insertcount% Faild Classes: %failedclasses% Total Number of records: %allCount%">
+        <source>Inserted rows: %insertcount% Faild Classes: %failedclasses% Total Number of records: %allCount%</source>
+        <target state="new">Inserted rows: %insertcount% Faild Classes: %failedclasses% Total Number of records: %allCount%</target>
+        <jms:reference-file line="4125">/../src/EDUBundle/Controller/DefaultController.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="d320e3881709491d0c3fbcf4cb12613ab32f3490" resname="Inserted rows: %insertcount% Faild Classes: %noclass% Faild Subjects: %nosubjects% Already assigined: %already% Total Number of records: %allCount%">
+        <source>Inserted rows: %insertcount% Faild Classes: %noclass% Faild Subjects: %nosubjects% Already assigined: %already% Total Number of records: %allCount%</source>
+        <target state="new">Inserted rows: %insertcount% Faild Classes: %noclass% Faild Subjects: %nosubjects% Already assigined: %already% Total Number of records: %allCount%</target>
+        <jms:reference-file line="4676">/../src/EDUBundle/Controller/DefaultController.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="14b8127ee3431da2c8cb4d5c4d2e1237088a77c9" resname="Inserted rows: %insertcount% Faild Classes: %noclass% Faild Teachers: %nousers% Already assigined: %already% Total Number of records: %allCount%">
+        <source>Inserted rows: %insertcount% Faild Classes: %noclass% Faild Teachers: %nousers% Already assigined: %already% Total Number of records: %allCount%</source>
+        <target state="new">Inserted rows: %insertcount% Faild Classes: %noclass% Faild Teachers: %nousers% Already assigined: %already% Total Number of records: %allCount%</target>
+        <jms:reference-file line="4798">/../src/EDUBundle/Controller/DefaultController.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="323c85dc83dc4ded14559eb63eb74cf1d9030b2d" resname="Inserted rows: %insertcount% Faild Halls: %failedsubs% Total Number of records: %allCount%">
+        <source>Inserted rows: %insertcount% Faild Halls: %failedsubs% Total Number of records: %allCount%</source>
+        <target state="new">Inserted rows: %insertcount% Faild Halls: %failedsubs% Total Number of records: %allCount%</target>
+        <jms:reference-file line="4310">/../src/EDUBundle/Controller/DefaultController.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="41dac423c15abf74f3b4c7b233f4564e3962f61b" resname="Inserted rows: %insertcount% Faild Parents: %noparent% Faild Students: %nostudent% Student and Parent Updates: %hasPrnt% Total Number of records: %allCount%">
+        <source>Inserted rows: %insertcount% Faild Parents: %noparent% Faild Students: %nostudent% Student and Parent Updates: %hasPrnt% Total Number of records: %allCount%</source>
+        <target state="new">Inserted rows: %insertcount% Faild Parents: %noparent% Faild Students: %nostudent% Student and Parent Updates: %hasPrnt% Total Number of records: %allCount%</target>
+        <jms:reference-file line="4431">/../src/EDUBundle/Controller/DefaultController.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="fcec190ebbe17572af9bff9a1effe16e5ae2da52" resname="Inserted rows: %insertcount% Faild Students: %nostudents% Faild Classes: %noclass%  Total Number of records: %allCount%">
+        <source>Inserted rows: %insertcount% Faild Students: %nostudents% Faild Classes: %noclass%  Total Number of records: %allCount%</source>
+        <target state="new">Inserted rows: %insertcount% Faild Students: %nostudents% Faild Classes: %noclass%  Total Number of records: %allCount%</target>
+        <jms:reference-file line="4555">/../src/EDUBundle/Controller/DefaultController.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="ef58dbecbf276df625c44be6eaea7a2cde473f79" resname="Inserted rows: %insertcount% Faild Subjects: %failedsubs% Total Number of records: %allCount%">
+        <source>Inserted rows: %insertcount% Faild Subjects: %failedsubs% Total Number of records: %allCount%</source>
+        <target state="new">Inserted rows: %insertcount% Faild Subjects: %failedsubs% Total Number of records: %allCount%</target>
+        <jms:reference-file line="4218">/../src/EDUBundle/Controller/DefaultController.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="87cdf354e4515343c32abca76add59ad4886458a" resname="Inserted rows: %insertcount% Faild Subjects: %nosubject% Faild Teachers: %nousers% Already assigined: %already% Total Number of records: %allCount%">
+        <source>Inserted rows: %insertcount% Faild Subjects: %nosubject% Faild Teachers: %nousers% Already assigined: %already% Total Number of records: %allCount%</source>
+        <target state="new">Inserted rows: %insertcount% Faild Subjects: %nosubject% Faild Teachers: %nousers% Already assigined: %already% Total Number of records: %allCount%</target>
+        <jms:reference-file line="4920">/../src/EDUBundle/Controller/DefaultController.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="49452243eb30ed3face0b76fe110cc946ee21bf8" resname="Inserted rows: %insertcount% Faild users: %failedusers% Total Number of records: %allCount%">
+        <source>Inserted rows: %insertcount% Faild users: %failedusers% Total Number of records: %allCount%</source>
+        <target state="new">Inserted rows: %insertcount% Faild users: %failedusers% Total Number of records: %allCount%</target>
+        <jms:reference-file line="4033">/../src/EDUBundle/Controller/DefaultController.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="89b86ab0e66f527166d98df92ddbcf5416ed58f6" resname="Language">
+        <source>Language</source>
+        <target state="new">Language</target>
+        <jms:reference-file line="78">/../src/EDUBundle/Form/UserEditType.php</jms:reference-file>
+        <jms:reference-file line="98">/../src/EDUBundle/Form/UserType.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="2df48ad223beccb8f6821904f38bb72e782904a8" resname="Last Login">
+        <source>Last Login</source>
+        <target state="new">Last Login</target>
+        <jms:reference-file line="47">/../src/EDUBundle/Resources/views/users/layout_parent_info.html.twig</jms:reference-file>
+        <jms:reference-file line="47">/../src/EDUBundle/Resources/views/users/layout_student_info.html.twig</jms:reference-file>
+        <jms:reference-file line="47">/../src/EDUBundle/Resources/views/users/layout_teacher_info.html.twig</jms:reference-file>
+        <jms:reference-file line="50">/../src/EDUBundle/Resources/views/users/layout_user_delete.html.twig</jms:reference-file>
+        <jms:reference-file line="47">/../src/EDUBundle/Resources/views/users/layout_user_info.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="8351ebe53db2a3981a7e85ac4e1f58217f715944" resname="Last Update">
+        <source>Last Update</source>
+        <target state="new">Last Update</target>
+        <jms:reference-file line="20">/../src/EDUBundle/Resources/views/users/layout_all_users.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="126dd3b70a5ca7818e0e26ad1e008d23b0f14a53" resname="Logs">
+        <source>Logs</source>
+        <target state="new">Logs</target>
+        <jms:reference-file line="146">/../src/EDUBundle/Resources/views/Includes/menu.html.twig</jms:reference-file>
+        <jms:reference-file line="7">/../src/EDUBundle/Resources/views/messages/layout_log_view.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="bf58d17e561b1b858e35f9202f811297dac2e9db" resname="Manage">
+        <source>Manage</source>
+        <target state="new">Manage</target>
+        <jms:reference-file line="34">/../src/EDUBundle/Resources/views/users/layout_students_users.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="68f4145fee7dde76afceb910165924ad14cf0d00" resname="Message">
+        <source>Message</source>
+        <target state="new">Message</target>
+        <jms:reference-file line="23">/../src/EDUBundle/Resources/views/messages/layout_inbox_view.html.twig</jms:reference-file>
+        <jms:reference-file line="23">/../src/EDUBundle/Resources/views/messages/layout_log_view.html.twig</jms:reference-file>
+        <jms:reference-file line="23">/../src/EDUBundle/Resources/views/messages/layout_outbox_view_msg.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="f1702b4686278becffc88baabe6f4b7a8355532c" resname="Messages">
+        <source>Messages</source>
+        <target state="new">Messages</target>
+        <jms:reference-file line="126">/../src/EDUBundle/Resources/views/Includes/menu.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="709a23220f2c3d64d1e1d6d18c4d5280f8d82fca" resname="Name">
+        <source>Name</source>
+        <target state="new">Name</target>
+        <jms:reference-file line="45">/../src/EDUBundle/Resources/views/student/layout_student_update.html.twig</jms:reference-file>
+        <jms:reference-file line="17">/../src/EDUBundle/Resources/views/users/layout_all_users.html.twig</jms:reference-file>
+        <jms:reference-file line="23">/../src/EDUBundle/Resources/views/users/layout_parent_info.html.twig</jms:reference-file>
+        <jms:reference-file line="12">/../src/EDUBundle/Resources/views/users/layout_parents_users.html.twig</jms:reference-file>
+        <jms:reference-file line="23">/../src/EDUBundle/Resources/views/users/layout_student_info.html.twig</jms:reference-file>
+        <jms:reference-file line="12">/../src/EDUBundle/Resources/views/users/layout_students_users.html.twig</jms:reference-file>
+        <jms:reference-file line="23">/../src/EDUBundle/Resources/views/users/layout_teacher_info.html.twig</jms:reference-file>
+        <jms:reference-file line="12">/../src/EDUBundle/Resources/views/users/layout_teaches_users.html.twig</jms:reference-file>
+        <jms:reference-file line="26">/../src/EDUBundle/Resources/views/users/layout_user_delete.html.twig</jms:reference-file>
+        <jms:reference-file line="23">/../src/EDUBundle/Resources/views/users/layout_user_info.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="55f5e23e405b57ef22e6fd9fb311c58657d0261b" resname="New Class">
+        <source>New Class</source>
+        <target state="new">New Class</target>
+        <jms:reference-file line="93">/../src/EDUBundle/Resources/views/Includes/menu.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="0e898049428467d3f10d3575efe9aca3c973047b" resname="News Content">
+        <source>News Content</source>
+        <target state="new">News Content</target>
+        <jms:reference-file line="26">/../src/EDUBundle/Resources/views/newsfeed/layout_news_delete.html.twig</jms:reference-file>
+        <jms:reference-file line="23">/../src/EDUBundle/Resources/views/newsfeed/layout_news_view.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="f308661a540f8f89d6852a32860b3689fee169b3" resname="News Feed">
+        <source>News Feed</source>
+        <target state="new">News Feed</target>
+        <jms:reference-file line="102">/../src/EDUBundle/Resources/views/Includes/menu.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="9e526eca0c89b6850af02f86be48119b879fd768" resname="Not assigned yet">
+        <source>Not assigned yet</source>
+        <target state="new">Not assigned yet</target>
+        <jms:reference-file line="1112">/../src/EDUBundle/Controller/DefaultController.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="d045dbbacdaf2166522d55da516e255fc804f8e5" resname="Number of %insertcount% schedules has been added">
+        <source>Number of %insertcount% schedules has been added</source>
+        <target state="new">Number of %insertcount% schedules has been added</target>
+        <jms:reference-file line="5028">/../src/EDUBundle/Controller/DefaultController.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="3ddb6d9ccd5f45b0b435f87c40516ba5a752f415" resname="Outbox">
+        <source>Outbox</source>
+        <target state="new">Outbox</target>
+        <jms:reference-file line="7">/../src/EDUBundle/Resources/views/messages/layout_outbox_view_msg.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="e42e0145a1d339341310422ab523e79a8b81fa6a" resname="PDF URL">
+        <source>PDF URL</source>
+        <target state="new">PDF URL</target>
+        <jms:reference-file line="59">/../src/EDUBundle/Form/ScheduleType.php</jms:reference-file>
+        <jms:reference-file line="15">/../src/EDUBundle/Resources/views/schedule/layout_all_schedule.html.twig</jms:reference-file>
+        <jms:reference-file line="26">/../src/EDUBundle/Resources/views/schedule/layout_schedule_delete.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="cc31ede52ce647f7167eaddb6e0f7d77fbd82f42" resname="Parent cannot be deleted. Already assigned as parent for %childs% student(s)">
+        <source>Parent cannot be deleted. Already assigned as parent for %childs% student(s)</source>
+        <target state="new">Parent cannot be deleted. Already assigned as parent for %childs% student(s)</target>
+        <jms:reference-file line="751">/../src/EDUBundle/Controller/DefaultController.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="280cfd1a5bc6d8fd74f84e285bc4c553ecbc7b74" resname="Parents">
+        <source>Parents</source>
+        <target state="new">Parents</target>
+        <jms:reference-file line="83">/../src/EDUBundle/Resources/views/Includes/menu.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="ab25d61bb12492027e2633997eea946c0f65a6b7" resname="Phone Number">
+        <source>Phone Number</source>
+        <target state="new">Phone Number</target>
+        <jms:reference-file line="61">/../src/EDUBundle/Resources/views/student/layout_student_update.html.twig</jms:reference-file>
+        <jms:reference-file line="39">/../src/EDUBundle/Resources/views/users/layout_parent_info.html.twig</jms:reference-file>
+        <jms:reference-file line="39">/../src/EDUBundle/Resources/views/users/layout_student_info.html.twig</jms:reference-file>
+        <jms:reference-file line="39">/../src/EDUBundle/Resources/views/users/layout_teacher_info.html.twig</jms:reference-file>
+        <jms:reference-file line="42">/../src/EDUBundle/Resources/views/users/layout_user_delete.html.twig</jms:reference-file>
+        <jms:reference-file line="39">/../src/EDUBundle/Resources/views/users/layout_user_info.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="7dc7ade6e0efafeda076cae2d6b6ceca82241e6e" resname="Please Select PDF File">
+        <source>Please Select PDF File</source>
+        <target state="new">Please Select PDF File</target>
+        <jms:reference-file line="3440">/../src/EDUBundle/Controller/DefaultController.php</jms:reference-file>
+        <jms:reference-file line="3604">/../src/EDUBundle/Controller/DefaultController.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="b0499d2cac2c68cd8e21c18a0580fa4ea7fe2908" resname="Please upload CSV file">
+        <source>Please upload CSV file</source>
+        <target state="new">Please upload CSV file</target>
+        <jms:reference-file line="3952">/../src/EDUBundle/Controller/DefaultController.php</jms:reference-file>
+        <jms:reference-file line="4022">/../src/EDUBundle/Controller/DefaultController.php</jms:reference-file>
+        <jms:reference-file line="4114">/../src/EDUBundle/Controller/DefaultController.php</jms:reference-file>
+        <jms:reference-file line="4207">/../src/EDUBundle/Controller/DefaultController.php</jms:reference-file>
+        <jms:reference-file line="4299">/../src/EDUBundle/Controller/DefaultController.php</jms:reference-file>
+        <jms:reference-file line="4420">/../src/EDUBundle/Controller/DefaultController.php</jms:reference-file>
+        <jms:reference-file line="4544">/../src/EDUBundle/Controller/DefaultController.php</jms:reference-file>
+        <jms:reference-file line="4665">/../src/EDUBundle/Controller/DefaultController.php</jms:reference-file>
+        <jms:reference-file line="4787">/../src/EDUBundle/Controller/DefaultController.php</jms:reference-file>
+        <jms:reference-file line="4909">/../src/EDUBundle/Controller/DefaultController.php</jms:reference-file>
+        <jms:reference-file line="5017">/../src/EDUBundle/Controller/DefaultController.php</jms:reference-file>
+        <jms:reference-file line="5070">/../src/EDUBundle/Controller/DefaultController.php</jms:reference-file>
+        <jms:reference-file line="5082">/../src/EDUBundle/Controller/DefaultController.php</jms:reference-file>
+        <jms:reference-file line="5090">/../src/EDUBundle/Controller/DefaultController.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="bf042ca5f46f0971aae8be608d4b82ebdd853815" resname="ROLE_ADMIN">
+        <source>ROLE_ADMIN</source>
+        <target state="new">ROLE_ADMIN</target>
+        <jms:reference-file line="511">/../src/EDUBundle/Controller/DefaultController.php</jms:reference-file>
+        <jms:reference-file line="47">/../src/EDUBundle/Form/UserEditType.php</jms:reference-file>
+        <jms:reference-file line="67">/../src/EDUBundle/Form/UserType.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="76b200d7334d0c6844f519c84d057dc61a0f6e5e" resname="ROLE_PARENT">
+        <source>ROLE_PARENT</source>
+        <target state="new">ROLE_PARENT</target>
+        <jms:reference-file line="523">/../src/EDUBundle/Controller/DefaultController.php</jms:reference-file>
+        <jms:reference-file line="59">/../src/EDUBundle/Form/UserEditType.php</jms:reference-file>
+        <jms:reference-file line="79">/../src/EDUBundle/Form/UserType.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="5f6bf67f752ea580598b362ff461e1dad5139985" resname="ROLE_STUDENT">
+        <source>ROLE_STUDENT</source>
+        <target state="new">ROLE_STUDENT</target>
+        <jms:reference-file line="519">/../src/EDUBundle/Controller/DefaultController.php</jms:reference-file>
+        <jms:reference-file line="55">/../src/EDUBundle/Form/UserEditType.php</jms:reference-file>
+        <jms:reference-file line="75">/../src/EDUBundle/Form/UserType.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="b33c2d7cc9b26ce6e8102a21daf0b209dc18e8d6" resname="ROLE_TEACHER">
+        <source>ROLE_TEACHER</source>
+        <target state="new">ROLE_TEACHER</target>
+        <jms:reference-file line="515">/../src/EDUBundle/Controller/DefaultController.php</jms:reference-file>
+        <jms:reference-file line="51">/../src/EDUBundle/Form/UserEditType.php</jms:reference-file>
+        <jms:reference-file line="71">/../src/EDUBundle/Form/UserType.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="c53aa21899f3158f26c5607d4caccc3d24548636" resname="Read Message">
+        <source>Read Message</source>
+        <target state="new">Read Message</target>
+        <jms:reference-file line="49">/../src/EDUBundle/Resources/views/messages/layout_log_view.html.twig</jms:reference-file>
+        <jms:reference-file line="41">/../src/EDUBundle/Resources/views/messages/layout_outbox_view_msg.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="78cbf8eb1d8fbe5db88f5c1a9c458b79c931b4c8" resname="Recipients">
+        <source>Recipients</source>
+        <target state="new">Recipients</target>
+        <jms:reference-file line="39">/../src/EDUBundle/Resources/views/messages/layout_log_view.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="44302f6181523b185a43c27b5769cef47cbc0d74" resname="Role Student cannot have Admin, Teacher or Parent roles">
+        <source>Role Student cannot have Admin, Teacher or Parent roles</source>
+        <target state="new">Role Student cannot have Admin, Teacher or Parent roles</target>
+        <jms:reference-file line="250">/../src/EDUBundle/Controller/DefaultController.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="0a8adac9d6d5f4d14ee887d196cd8618f0f3391a" resname="Schedule">
+        <source>Schedule</source>
+        <target state="new">Schedule</target>
+        <jms:reference-file line="167">/../src/EDUBundle/Resources/views/Includes/menu.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="2a368ec87d15e48903857233d6e015e4495302f8" resname="Schedule Import details">
+        <source>Schedule Import details</source>
+        <target state="new">Schedule Import details</target>
+        <jms:reference-file line="5027">/../src/EDUBundle/Controller/DefaultController.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="26d9d08929660605515988d78ff9226f70d4368c" resname="Schedules">
+        <source>Schedules</source>
+        <target state="new">Schedules</target>
+        <jms:reference-file line="3912">/../src/EDUBundle/Controller/DefaultController.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="9409fb20e6cc1d98e790e4fd5c648e7933acfd59" resname="Selected Messages has been deleted">
+        <source>Selected Messages has been deleted</source>
+        <target state="new">Selected Messages has been deleted</target>
+        <jms:reference-file line="2896">/../src/EDUBundle/Controller/DefaultController.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="17b874d289117b1353bc5080960074585aed4227" resname="Sender">
+        <source>Sender</source>
+        <target state="new">Sender</target>
+        <jms:reference-file line="16">/../src/EDUBundle/Resources/views/messages/layout_inbox_messages.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="c0478d4534b8141947b9372e94589bd35a54dac5" resname="Sent Items">
+        <source>Sent Items</source>
+        <target state="new">Sent Items</target>
+        <jms:reference-file line="143">/../src/EDUBundle/Resources/views/Includes/menu.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="7e1e32b22a13d952b75b4cf5f662b761a9cb6868" resname="Student &amp; Class">
+        <source><![CDATA[Student & Class]]></source>
+        <target state="new"><![CDATA[Student & Class]]></target>
+        <jms:reference-file line="3908">/../src/EDUBundle/Controller/DefaultController.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="fe52c7ec23b1e25a3b32912271f06da3c36b594f" resname="Student &amp; Class Import details">
+        <source><![CDATA[Student & Class Import details]]></source>
+        <target state="new"><![CDATA[Student & Class Import details]]></target>
+        <jms:reference-file line="4554">/../src/EDUBundle/Controller/DefaultController.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="a11d095f11b653ffe76a74f78b79f2f1752bb349" resname="Student &amp; Parent">
+        <source><![CDATA[Student & Parent]]></source>
+        <target state="new"><![CDATA[Student & Parent]]></target>
+        <jms:reference-file line="3907">/../src/EDUBundle/Controller/DefaultController.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="a3293d7084ef1185333257574a4cc54f177ff77b" resname="Student &amp; Parent Import details">
+        <source><![CDATA[Student & Parent Import details]]></source>
+        <target state="new"><![CDATA[Student & Parent Import details]]></target>
+        <jms:reference-file line="4430">/../src/EDUBundle/Controller/DefaultController.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="fcfac3efb6ae696fcb48427ff359561932b8f8e8" resname="Students">
+        <source>Students</source>
+        <target state="new">Students</target>
+        <jms:reference-file line="80">/../src/EDUBundle/Resources/views/Includes/menu.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="8d183dbdcea3b29906090bd83fa6fa37923cc8ec" resname="Subject">
+        <source>Subject</source>
+        <target state="new">Subject</target>
+        <jms:reference-file line="14">/../src/EDUBundle/Resources/views/messages/layout_inbox_messages.html.twig</jms:reference-file>
+        <jms:reference-file line="15">/../src/EDUBundle/Resources/views/messages/layout_inbox_view.html.twig</jms:reference-file>
+        <jms:reference-file line="15">/../src/EDUBundle/Resources/views/messages/layout_log_view.html.twig</jms:reference-file>
+        <jms:reference-file line="12">/../src/EDUBundle/Resources/views/messages/layout_logs_view.html.twig</jms:reference-file>
+        <jms:reference-file line="12">/../src/EDUBundle/Resources/views/messages/layout_outbox_view.html.twig</jms:reference-file>
+        <jms:reference-file line="15">/../src/EDUBundle/Resources/views/messages/layout_outbox_view_msg.html.twig</jms:reference-file>
+        <jms:reference-file line="12">/../src/EDUBundle/Resources/views/tasks/layout_tasks_list.html.twig</jms:reference-file>
+        <jms:reference-file line="15">/../src/EDUBundle/Resources/views/tasks/layout_tasks_view.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="9bc70843a4abc1d78fa16bd18fd63b160ad697c9" resname="Subject ID">
+        <source>Subject ID</source>
+        <target state="new">Subject ID</target>
+        <jms:reference-file line="12">/../src/EDUBundle/Resources/views/schedule/layout_schedule_subject.html.twig</jms:reference-file>
+        <jms:reference-file line="13">/../src/EDUBundle/Resources/views/subjects/layout_all_subjects.html.twig</jms:reference-file>
+        <jms:reference-file line="12">/../src/EDUBundle/Resources/views/tasks/layout_tasks_subs.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="4789b2b79a3139c3aeb8b66499333773486e0e75" resname="Subject Name">
+        <source>Subject Name</source>
+        <target state="new">Subject Name</target>
+        <jms:reference-file line="13">/../src/EDUBundle/Resources/views/schedule/layout_schedule_subject.html.twig</jms:reference-file>
+        <jms:reference-file line="14">/../src/EDUBundle/Resources/views/subjects/layout_all_subjects.html.twig</jms:reference-file>
+        <jms:reference-file line="13">/../src/EDUBundle/Resources/views/tasks/layout_tasks_subs.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="278947dee289782f78903bd4d2e463a039a517fd" resname="Subjects">
+        <source>Subjects</source>
+        <target state="new">Subjects</target>
+        <jms:reference-file line="30">/../src/EDUBundle/Resources/views/class/layout_all_classes.html.twig</jms:reference-file>
+        <jms:reference-file line="36">/../src/EDUBundle/Resources/views/users/layout_teaches_users.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="d99d5f5037abd61eb3a377a63c762e94b0c54869" resname="Subjects Import details">
+        <source>Subjects Import details</source>
+        <target state="new">Subjects Import details</target>
+        <jms:reference-file line="4217">/../src/EDUBundle/Controller/DefaultController.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="212f70d3597fbdc6dbbddc234b6e792d4846d702" resname="Sujects">
+        <source>Sujects</source>
+        <target state="new">Sujects</target>
+        <jms:reference-file line="3905">/../src/EDUBundle/Controller/DefaultController.php</jms:reference-file>
+        <jms:reference-file line="114">/../src/EDUBundle/Resources/views/Includes/menu.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="090ec5f560fc50377fcd95e5cda128e91b276e98" resname="Tasks">
+        <source>Tasks</source>
+        <target state="new">Tasks</target>
+        <jms:reference-file line="152">/../src/EDUBundle/Resources/views/Includes/menu.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="cd7ffd13709ccd25e7f4cda7b33cfe9a0d4318d7" resname="Tasks List">
+        <source>Tasks List</source>
+        <target state="new">Tasks List</target>
+        <jms:reference-file line="155">/../src/EDUBundle/Resources/views/Includes/menu.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="da33ddcb584a57879dff33155f40a4dde93f3480" resname="Teacher">
+        <source>Teacher</source>
+        <target state="new">Teacher</target>
+        <jms:reference-file line="15">/../src/EDUBundle/Resources/views/tasks/layout_tasks_list.html.twig</jms:reference-file>
+        <jms:reference-file line="39">/../src/EDUBundle/Resources/views/tasks/layout_tasks_view.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="3f68a6daffb780704c4a51607e8dafc908702eb1" resname="Teacher &amp; Subjects">
+        <source><![CDATA[Teacher & Subjects]]></source>
+        <target state="new"><![CDATA[Teacher & Subjects]]></target>
+        <jms:reference-file line="3911">/../src/EDUBundle/Controller/DefaultController.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="bdc138a1bb6995cbb12c4619aaaa68704d6e71ce" resname="Teacher ID">
+        <source>Teacher ID</source>
+        <target state="new">Teacher ID</target>
+        <jms:reference-file line="12">/../src/EDUBundle/Resources/views/schedule/layout_schedule_teachers.html.twig</jms:reference-file>
+        <jms:reference-file line="12">/../src/EDUBundle/Resources/views/tasks/layout_tasks_senders.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="9ab423bc0b92a11ac51c0c3dd3a3a23bbd06edf6" resname="Teacher Name">
+        <source>Teacher Name</source>
+        <target state="new">Teacher Name</target>
+        <jms:reference-file line="13">/../src/EDUBundle/Resources/views/schedule/layout_schedule_teachers.html.twig</jms:reference-file>
+        <jms:reference-file line="13">/../src/EDUBundle/Resources/views/tasks/layout_tasks_senders.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="1a9095d76e127a9f67dd771455b3dc617b0fe247" resname="Teacher can not be deleted. Already assigned as parent for %students% student(s)">
+        <source>Teacher can not be deleted. Already assigned as parent for %students% student(s)</source>
+        <target state="new">Teacher can not be deleted. Already assigned as parent for %students% student(s)</target>
+        <jms:reference-file line="719">/../src/EDUBundle/Controller/DefaultController.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="f8e1653fd6983d84ebd07eaa44715d787dbb1d62" resname="Teacher can not be deleted. Already assigned to %classes% class(es)">
+        <source>Teacher can not be deleted. Already assigned to %classes% class(es)</source>
+        <target state="new">Teacher can not be deleted. Already assigned to %classes% class(es)</target>
+        <jms:reference-file line="668">/../src/EDUBundle/Controller/DefaultController.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="6dafe9deed32c5ded8fbdfda0cd6d2cde93adbda" resname="Teacher can not be deleted. Already has %schedules% schedule(s)">
+        <source>Teacher can not be deleted. Already has %schedules% schedule(s)</source>
+        <target state="new">Teacher can not be deleted. Already has %schedules% schedule(s)</target>
+        <jms:reference-file line="703">/../src/EDUBundle/Controller/DefaultController.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="f2604f9b72ad42b1d523a572d48c056f91b1cfd4" resname="Teachers">
+        <source>Teachers</source>
+        <target state="new">Teachers</target>
+        <jms:reference-file line="77">/../src/EDUBundle/Resources/views/Includes/menu.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="768e0c1c69573fb588f61f1308a015c11468e05f" resname="Title">
+        <source>Title</source>
+        <target state="new">Title</target>
+        <jms:reference-file line="13">/../src/EDUBundle/Resources/views/newsfeed/layout_all_news.html.twig</jms:reference-file>
+        <jms:reference-file line="18">/../src/EDUBundle/Resources/views/newsfeed/layout_news_delete.html.twig</jms:reference-file>
+        <jms:reference-file line="15">/../src/EDUBundle/Resources/views/newsfeed/layout_news_view.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="ae79ea1e9c6391a9ed83a2e18a031b835feec0c9" resname="To">
+        <source>To</source>
+        <target state="new">To</target>
+        <jms:reference-file line="40">/../src/EDUBundle/Form/NewMessageType.php</jms:reference-file>
+        <jms:reference-file line="14">/../src/EDUBundle/Resources/views/messages/layout_outbox_view.html.twig</jms:reference-file>
+        <jms:reference-file line="31">/../src/EDUBundle/Resources/views/messages/layout_outbox_view_msg.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="6ca8ec8e6541daf1920c515cd9f54410b0678a33" resname="Unread Message">
+        <source>Unread Message</source>
+        <target state="new">Unread Message</target>
+        <jms:reference-file line="50">/../src/EDUBundle/Resources/views/messages/layout_log_view.html.twig</jms:reference-file>
+        <jms:reference-file line="42">/../src/EDUBundle/Resources/views/messages/layout_outbox_view_msg.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="84c29015de33e5d22422382a372caba5c58f8c01" resname="Username">
+        <source>Username</source>
+        <target state="new">Username</target>
+        <jms:reference-file line="14">/../src/EDUBundle/Resources/views/schedule/layout_schedule_teachers.html.twig</jms:reference-file>
+        <jms:reference-file line="37">/../src/EDUBundle/Resources/views/student/layout_student_update.html.twig</jms:reference-file>
+        <jms:reference-file line="14">/../src/EDUBundle/Resources/views/tasks/layout_tasks_senders.html.twig</jms:reference-file>
+        <jms:reference-file line="18">/../src/EDUBundle/Resources/views/users/layout_all_users.html.twig</jms:reference-file>
+        <jms:reference-file line="15">/../src/EDUBundle/Resources/views/users/layout_parent_info.html.twig</jms:reference-file>
+        <jms:reference-file line="15">/../src/EDUBundle/Resources/views/users/layout_student_info.html.twig</jms:reference-file>
+        <jms:reference-file line="15">/../src/EDUBundle/Resources/views/users/layout_teacher_info.html.twig</jms:reference-file>
+        <jms:reference-file line="18">/../src/EDUBundle/Resources/views/users/layout_user_delete.html.twig</jms:reference-file>
+        <jms:reference-file line="15">/../src/EDUBundle/Resources/views/users/layout_user_info.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="57f2b181d0a5e79a147ea1cdf41457f58dbbb3c9" resname="Users">
+        <source>Users</source>
+        <target state="new">Users</target>
+        <jms:reference-file line="3903">/../src/EDUBundle/Controller/DefaultController.php</jms:reference-file>
+        <jms:reference-file line="63">/../src/EDUBundle/Resources/views/Includes/menu.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="c87d732697245268763b2bdca014ad958c6952d6" resname="Users Import details">
+        <source>Users Import details</source>
+        <target state="new">Users Import details</target>
+        <jms:reference-file line="4032">/../src/EDUBundle/Controller/DefaultController.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="69bd4ef9fbd0894a22759c3766b859defbdedbc8" resname="View">
+        <source>View</source>
+        <target state="new">View</target>
+        <jms:reference-file line="34">/../src/EDUBundle/Resources/views/newsfeed/layout_all_news.html.twig</jms:reference-file>
+        <jms:reference-file line="44">/../src/EDUBundle/Resources/views/users/layout_all_users.html.twig</jms:reference-file>
+        <jms:reference-file line="64">/../src/EDUBundle/Resources/views/users/layout_all_users.html.twig</jms:reference-file>
+        <jms:reference-file line="30">/../src/EDUBundle/Resources/views/users/layout_parents_users.html.twig</jms:reference-file>
+        <jms:reference-file line="35">/../src/EDUBundle/Resources/views/users/layout_students_users.html.twig</jms:reference-file>
+        <jms:reference-file line="38">/../src/EDUBundle/Resources/views/users/layout_teaches_users.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="5397e0583f14f6c88de06b1ef28f460a1fb5b0ae" resname="Yes">
+        <source>Yes</source>
+        <target state="new">Yes</target>
+        <jms:reference-file line="513">/../src/EDUBundle/Controller/DefaultController.php</jms:reference-file>
+        <jms:reference-file line="517">/../src/EDUBundle/Controller/DefaultController.php</jms:reference-file>
+        <jms:reference-file line="521">/../src/EDUBundle/Controller/DefaultController.php</jms:reference-file>
+        <jms:reference-file line="525">/../src/EDUBundle/Controller/DefaultController.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="4cf9c9735db7f0c3e1bb44f1de1f5cd79100c278" resname="Yes, Delete">
+        <source>Yes, Delete</source>
+        <target state="new">Yes, Delete</target>
+        <jms:reference-file line="10">/../src/EDUBundle/Resources/views/class/layout_class_delete.html.twig</jms:reference-file>
+        <jms:reference-file line="10">/../src/EDUBundle/Resources/views/schedule/layout_schedule_delete.html.twig</jms:reference-file>
+        <jms:reference-file line="10">/../src/EDUBundle/Resources/views/subjects/layout_subjects_delete.html.twig</jms:reference-file>
+        <jms:reference-file line="10">/../src/EDUBundle/Resources/views/users/layout_user_delete.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="9ddfbb83e730741303958748825b3033f8fd01cf" resname="Yes, Delete this news">
+        <source>Yes, Delete this news</source>
+        <target state="new">Yes, Delete this news</target>
+        <jms:reference-file line="10">/../src/EDUBundle/Resources/views/newsfeed/layout_news_delete.html.twig</jms:reference-file>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,46 @@
+{{ include("EDUBundle:Includes:header.html.twig") }}
+
+<div id="wrapper">
+    
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js">
+  </script>
+  <script>
+    function detail(x){
+  
+      var x
+     $('#detail_'+x).appendTo("body").modal('show');
+      
+    }
+  </script>
+    
+
+    {{ include("EDUBundle:Includes:menu.html.twig") }}
+
+    <div id="page-wrapper">
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="page-header">{% if title is defined %}{{ title }}{% endif %}</h1>
+                {% block crossx_top_buttons %}
+                {% endblock %}
+            </div>
+            <!-- /.col-lg-12 -->
+        </div>
+        {% for message in app.session.flashbag.get('notice') %}
+            <div class="alert alert-info" style="padding: 15px;">{{ 'Info'|trans }} : {{ message }}</div>
+        {% endfor %}
+        {% for message in app.session.flashbag.get('warning') %}
+            <div class="alert alert-danger" style="padding: 15px;">{{ 'Error'|trans }} : {{ message }}</div>
+        {% endfor %}
+        {% block cmi_body %}
+        {% endblock %}
+
+        {% block fos_user_content %}{% endblock %}
+
+    </div>
+    <!-- /#page-wrapper -->
+
+</div>
+<!-- /#wrapper -->
+
+{{ include("EDUBundle:Includes:footer.html.twig") }}

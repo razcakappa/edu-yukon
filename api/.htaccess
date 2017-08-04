@@ -1,0 +1,13 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteRule ^(.*)$ web/$1 [QSA,L]
+</IfModule>
+
+<IfModule mod_headers.c>
+
+<FilesMatch "\\.(ico|jpg|jpeg|png|gif|swf|pdf)$">
+Header set Cache-Control "max-age=2592000, public"
+</FilesMatch>
+
+</IfModule>

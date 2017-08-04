@@ -1,0 +1,37 @@
+{% extends "EDUBundle::layout.html.twig" %}
+    
+{% block cmi_body %}
+    <div class="row">
+        <div class="col-md-2">
+            
+        </div>
+        <div class="col-md-6">
+            {% if 'ROLE_TEACHER' in user.roles  %}
+                <a href="{{ base_url}}/teacher/edit/class/{{ user.id }}" class="btn btn-xs btn-success">
+                    <i class="glyphicon glyphicon-plus">
+                    </i>
+                    {{ 'Classes'|trans }}
+                </a>
+                <a href="{{ base_url}}/teacher/edit/subject/{{ user.id }}" class="btn btn-xs btn-success">
+                    <i class="glyphicon glyphicon-plus">
+                    </i>
+                    {{ 'Subjects'|trans }}
+                </a>
+            {% endif %}
+            {% if 'ROLE_STUDENT' in user.roles  %}
+                <a href="{{ base_url}}/student/manage/{{ user.id }}" class="btn btn-xs btn-success"><i class="glyphicon glyphicon-plus"></i> {{ 'Manage'|trans }}</a>
+            {% endif %}
+        </div>
+    </div>
+    <br><br>
+    <div class="row">
+        <div class="col-md-2">
+            
+        </div>
+        <div class="col-md-6">
+            {{form_start(form)}}
+                {{form_widget(form)}}
+            {{form_end(form)}}
+        </div>
+    </div>
+{% endblock %}

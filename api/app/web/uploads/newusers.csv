@@ -1,0 +1,3 @@
+firstname,lastname,email,username,roles,phonenumber,address,postcode,contactnumber
+Jhon,Doe,aaaa@dkf.com,jhond, ROLE_PARENT: ROLE_TEACHER,120000000,sample address,123,9900000000
+Nick,Joe,jdoe@sample.com,njoe,ROLE_STUDENT,120000000,sample address,124,9900000000

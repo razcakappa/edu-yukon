@@ -1,0 +1,51 @@
+security:
+
+    encoders:
+        EDUBundle\Entity\Users: sha512
+        
+    role_hierarchy:
+        ROLE_ADMIN:         [ROLE_ADMIN]
+        ROLE_SUPER_ADMIN:   [ROLE_SUPER_ADMIN, ROLE_ALLOWED_TO_SWITCH]
+        ROLE_TEACHER:       [ROLE_TEACHER]
+        ROLE_STUDENT:       [ROLE_STUDENT]
+        
+    # http://symfony.com/doc/current/book/security.html#where-do-users-come-from-user-providers
+    providers:
+        main:
+            id: fos_user.user_provider.username
+        
+    firewalls:
+        # disables authentication for assets and the profiler, adapt it according to your needs
+        dev:
+            pattern: ^/(_(profiler|wdt)|css|images|js)/
+            security: false
+        
+        main:
+            pattern:        ^/
+            anonymous:      true
+            provider:       main
+            form_login:
+                login_path: fos_user_security_login
+                check_path: fos_user_security_check
+                always_use_default_target_path: false
+                #default_target_path: /%locale%/
+            logout:
+                path:       fos_user_security_logout
+                target:     /login
+
+    access_control:
+        - { path: ^/login$, role: IS_AUTHENTICATED_ANONYMOUSLY }
+        - { path: ^/api/, role: IS_AUTHENTICATED_ANONYMOUSLY }
+        - { path: ^/report/export/, roles: IS_AUTHENTICATED_ANONYMOUSLY }
+        - { path: ^/report/export_daily/, roles: IS_AUTHENTICATED_ANONYMOUSLY }
+        - { path: ^/$, roles: IS_AUTHENTICATED_FULLY }
+        - { path: ^/user/, roles: [ROLE_ADMIN,ROLE_SUPER_ADMIN] }
+        - { path: ^/class/, roles: [ROLE_ADMIN,ROLE_SUPER_ADMIN] }
+        - { path: ^/news/, roles: [ROLE_ADMIN,ROLE_SUPER_ADMIN] }
+        - { path: ^/subject/, roles: [ROLE_ADMIN,ROLE_SUPER_ADMIN] }
+        - { path: ^/tasks/, roles: [ROLE_TUTOR,ROLE_ADMIN,ROLE_SUPER_ADMIN] }
+        - { path: ^/schedule/, roles: [ROLE_ADMIN,ROLE_SUPER_ADMIN] }
+        - { path: ^/halls/, roles: [ROLE_ADMIN,ROLE_SUPER_ADMIN] }
+        - { path: ^/import/, roles: [ROLE_ADMIN,ROLE_SUPER_ADMIN] }
+        - { path: ^/_trans/, roles: [ROLE_ADMIN,ROLE_SUPER_ADMIN] }
+        - { path: ^/message/, roles: [ROLE_EDUCATOR,ROLE_TUTOR,ROLE_ADMIN,ROLE_SUPER_ADMIN] }

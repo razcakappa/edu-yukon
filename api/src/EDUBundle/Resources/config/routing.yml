@@ -1,0 +1,11 @@
+edu_users:
+   path:      /
+   defaults:  { _controller: EDUBundle:Default:getUsers }
+   
+app:
+   resource: "@EDUBundle/Controller/DefaultController.php"
+   type:     annotation
+   
+hello:
+    path:  /lang
+    defaults: { _controller: EDUBundle:Locale:switchLang }

@@ -1,0 +1,38 @@
+{% extends "EDUBundle::layout.html.twig" %}
+    
+{% block cmi_body %}
+    <div class="row">
+        <div class="col-md-12">
+            <p>{{ message }}</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-2">
+            
+        </div>
+        <div class="col-md-6">
+            {{form_start(form)}}
+            {{form_widget(form)}}
+            {{form_end(form)}}
+        </div>
+    </div>
+    <script>
+        document.getElementById("compose").addEventListener("submit", function(event){
+            event.preventDefault();
+            
+            var title   = $("#new_message_to_all_subject").val();
+            //var to      = $("#new_message_receiver :selected").text();
+            var message = $("#new_message_to_all_content").val();
+            
+            $('#title').text(title);
+            $('#to').text('All Users');
+            $('#message').text(message);
+            
+            $('#myModal').modal('show');
+            
+            $('#send').click(function(){
+                $('#compose').submit();
+            });
+        });
+    </script>
+{% endblock %}

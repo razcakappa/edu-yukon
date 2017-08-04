@@ -1,0 +1,26 @@
+
+
+{% extends "CMIBundle::layout.html.twig" %}
+
+{% block cmi_body %}
+
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="panel panel-default">
+                <div class="panel-body">
+                    {{ form_start(form, {'attr': {'role': 'form', 'enctype': 'multipart/form-data'}}) }}
+                    {{ form_row(form.Section) }}
+                    {{ form_row(form.code) }}
+                    {% for noteLabel in form.noteContent %}
+                        <h4>Note {{ noteLabel.vars.value.language|upper }}</h4>
+                        {{ form_widget(noteLabel) }}
+                    {% endfor %}
+                    <button type="submit">Save</button>
+                    {{ form_end(form) }}
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+{% endblock %}

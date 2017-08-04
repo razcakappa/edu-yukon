@@ -1,0 +1,151 @@
+{% extends "EDUBundle::layout.html.twig" %}
+    
+{% block cmi_body %}
+    
+
+<div class="row">
+    <script>
+    function form_submit(key_type){
+       //alert(key_type);
+       $("#form_"+key_type).submit();   
+    }
+    </script>
+	<style>
+		
+	.table > thead > tr > th {
+		vertical-align: middle;
+	}
+	
+	table.dataTable thead .sorting_asc::after, table.dataTable thead .sorting_desc::after, table.dataTable thead .sorting::after{
+		padding: 0 10px;
+		float: none;
+		
+	}
+	</style>
+    
+	{% if names is defined %}
+			{% for name in names %}	
+			<div class="col-md-3 ">
+				<div class="box_wrap well">
+					<form name="form_users" id="form_{{name['Name']}}" method="post" enctype="multipart/form-data">
+					<input type="hidden" id="key_type_{{name['Name']}}" name="type" value="{{name['Name']}}">
+					<h4>
+						
+					{% set title=name['title'] %}	
+					
+					{% if title=='users-csv-box-title' %}
+						{{'users-csv-box-title'|trans }}
+					{% elseif title=='classes-csv-box-title' %}
+						{{'classes-csv-box-title'|trans }}
+					{% elseif title=='subjects-csv-box-title' %}
+						{{'subjects-csv-box-title'|trans }}
+					{% elseif title=='halls-csv-box-title-csv-box-title' %}
+						{{'halls-csv-box-title-csv-box-title'|trans }}
+					{% elseif title=='student_parent-csv-box-title' %}
+						{{'student_parent-csv-box-title'|trans }}
+					{% elseif title=='class_student-csv-box-title' %}
+						{{'class_student-csv-box-title'|trans }}
+					{% elseif title=='class_subs-csv-box-title' %}
+						{{'class_subs-csv-box-title'|trans }}
+					{% elseif title=='class_teacher-csv-box-title' %}
+						{{'class_teacher-csv-box-title'|trans }}
+					{% elseif title=='teacher_subjects-csv-box-title' %}
+						{{'teacher_subjects-csv-box-title'|trans }}
+					{% endif %}
+		
+					</h4>
+					<a href="{{site_url}}api/web/sample_csvs/{{name['Name']}}.csv"  target="_blank" type="button" class="btn btn-primary btn_download">
+					{{'csv-user-sample'|trans }}</br> {{'csv-downlord'|trans }} <i class="fa fa-chevron-circle-down" aria-hidden="true"></i>
+					</a>
+						<div class="choose_file_title">
+						{{'csv-user-upload'|trans }}
+						
+						</div>
+						
+						<div class="fileinput fileinput-new" >
+						<span class=" btn-file"> 
+						<input type="file" id="files_{{name['Name']}}" name="file_upload" required class="form-control p10-upld"  />
+						</span>
+						<span class="fileinput-filename"></span>
+						</div>
+					<button onclick="import_init('files_{{name['Name']}}','key_type_{{name['Name']}}')"  type="button" class="btn btn-primary btn_upload">{{'csv-user-import'|trans }} </button>
+					</form>
+				</div>
+			</div>
+		{% endfor %}
+	{% endif %}
+
+</div>
+	
+
+
+<script>
+    
+    function close_model(){
+        $("#mymodal").remove();
+	}
+    
+    
+    function importModelLoad(status,tbody,key_type) {
+
+        var modle_head='<div class="modal fade" id="detail" role="dialog" tabindex="-1">'+
+            '<div class="modal-dialog" role="document">'+
+            '<div class="modal-content">'+
+            '<div class="modal-header">'+
+            '<button type="button" class="close" data-dismiss="modal" onclick="close_model()">&times;'+
+            '</button>'+
+            '<h4 class="modal-title"><b>{{ "user-all-popup-heading"|trans }}</b>'+
+            '</h4></div>';
+             //create modle error masages
+        var msg_error='<div class="alert alert-danger">'+
+                    '<strong>{{ "csv_error"|trans }}</strong> {{ "csv_error_msg"|trans }}</div>';
+            //create modle sucess masages
+        var msg_sucess='<div class="alert alert-success">'+
+                    '<strong>{{ "csv_sucess"|trans }}</strong> {{ "csv_sucess_msg"|trans }}</div>';
+            //start model body
+        var tail='<div class="modal-body">';
+            //start model footer
+        var foter_start='</div><div class="modal-footer">';
+           //model error button
+        var btn_error='<button type="button"  onclick="close_model()" class="btn btn-danger"             data-dismiss="modal">{{ 'csvValidationButton-format_wrong'|trans }}</button>';
+         //model sucess button
+        var btn_sucess='<button type="button" onclick="form_submit('+"'"+key_type+"'"+')" class="btn btn-success">'+
+          '{{ "csvValidationButton-format_correct"|trans }}</button>';
+          
+        var modle_end='</div></div></div></div>';
+        
+       
+        var msg=modle_head;
+            if(status==1)
+            {msg+=msg_sucess;}
+            if(status==0)
+            {msg+=msg_error;}
+            msg+=tail+tbody+foter_start;
+            if(status==1)
+            {msg+=btn_error+btn_sucess;}
+            if(status==0)
+            {msg+=btn_error}
+            msg+=modle_end;
+            
+        
+        // create html object and append to body
+        document.getElementById("import-modal-placeholder").innerHTML+=msg;
+        
+        //call bootstarp data table
+        $('#csv_validate').DataTable({
+            responsive: true,
+            language: {
+                "url":"//cdn.datatables.net/plug-ins/1.10.13/i18n/French.json"
+            }
+        });
+        
+        //add style to closet div csv validate
+        $( "#csv_validate" ).closest( "div" ).css( "overflow", "auto" );
+        //show model
+        $('#detail').appendTo("body").modal('show');
+       
+
+    }
+   
+</script>
+{% endblock %}

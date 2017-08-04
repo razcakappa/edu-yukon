@@ -1,0 +1,37 @@
+/*======= IMPORT CSV PAGE ===================*/
+div.box_wrap h4{
+    font-size: 1.5em;
+    font-weight: 600;
+    margin-bottom: 1em;
+}
+
+button.btn_download{
+    display: block;
+    margin: 0 auto 1em;
+    max-width: 220px;
+    width: 100%; 
+}
+
+button.btn_upload{
+    margin-bottom: 1em;
+    margin-top: .5em; 
+}
+
+div.choose_file_title{
+    margin-bottom: 1em;
+    font-weight: bold;
+}
+
+div.box_wrap{
+    border: 1px solid #CCCCCC;
+    background: #FFF;  
+}
+
+.form-control.p10-upld{
+    border: 0 none;
+    font-size: 9px;
+    margin: 0 !important;
+    padding: 0 !important;
+    font-weight: 700;
+    height: 34px;
+}

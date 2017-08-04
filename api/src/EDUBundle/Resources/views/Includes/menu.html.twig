@@ -1,0 +1,148 @@
+<!-- Navigation -->
+<nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="{{ base_url }}">
+            <img  style="float:left;" src="/api/web/assets/images/logo.png" width="55">
+        </a>
+    </div>
+    <!-- /.navbar-header -->
+    <!--WORKING LANG-->
+    <!--ul class="lang-menu" style="list-style-type: none; font-size: 11px;display:block; position: absolute; right: 25px; top: 0; z-index: 9999;">
+        <li style="float: left; margin: 10px 5px"><a href="{{ base_url}}/lang?_locale=fr" style="display: block">
+            {% if app.request.getLocale() == 'fr' %}
+                <b>{{ 'French'|trans }}</b>
+            {% else %}
+                {{ 'French'|trans }}
+            {% endif %}
+        </a></li>
+        <li style="float: left; margin: 10px 0"><a>|</a></li>
+        <li style="float: left; margin: 10px 5px"><a href="{{ base_url}}/lang?_locale=nl" style="display: block">
+            {% if app.request.getLocale() == 'nl' %}
+                <b> {{ 'Dutch'|trans }} </b>
+            {% else %}
+                {{ 'Dutch'|trans }}
+            {% endif %}
+        </a></li>
+        <li style="float: left; margin: 10px 0"><a>|</a></li>
+        <li style="float: left; margin: 10px 5px"><a href="{{ base_url}}/lang?_locale=en" style="display: block">
+            {% if app.request.getLocale() == 'en' %}
+                <b> {{ 'English'|trans }} </b>
+            {% else %}
+                {{ 'English'|trans }}
+            {% endif %}
+        </a></li>
+    </ul-->
+    
+    <!-- /.navbar-top-links -->
+    <div class="navbar-default sidebar" role="navigation">
+        <div class="sidebar-nav navbar-collapse" id="navigate" >
+            <!-- <ul class="navbar-brand" id="side-menu">-->
+            <ul class="nav" id="side-menu">
+            {% if is_granted('ROLE_ADMIN') %}
+            <!--<ul class="navbar-brand" id="side-menu">-->
+                <li>
+                    <a href="#">
+                        <i class="fa fa-users"></i> {{ 'Users'|trans }}
+                    <span class="fa arrow"  ></span>
+                        
+                    </a>
+                    
+                    <ul class="nav nav-second-level">
+                        <li>
+                            <a href="{{ base_url }}/user/add">{{ 'Add New User'|trans }}</a>
+                        </li>
+                        
+                        <li>
+                            <a href="{{ path('edu_users') }}?">{{ 'All Users'|trans }}
+                                {% if count is defined %}
+                                    &nbsp;<span class="badge" style="background-color:#337ab7 !important">{{ count }}</span>
+                                {% endif %}
+                            </a>
+                        </li>
+                        <li> 
+                            <a href="{{ base_url }}/user/teachers">{{ 'Teachers'|trans }}</a>
+                        </li>
+                        <li>
+                            <a href="{{ base_url }}/user/students">{{ 'Students'|trans }}</a>
+                        </li>
+                    </ul>
+                </li>
+                
+               
+                <li>
+                    <a href="#"><i class="fa fa-university"></i> {{ 'Classes'|trans }}<span class="fa arrow"></span></a>
+                    <ul class="nav nav-second-level">
+                        <li>
+                            <a href="{{ base_url}}/class/add">{{ 'New Class'|trans }}</a>
+                        </li>
+                        <li>
+                            <a href="{{ base_url}}/class/all">{{ 'All Classes'|trans }}</a>
+                        </li>
+                    </ul>
+                    
+                </li>
+                 
+                <li >
+                    <a href="#"><i class="fa fa-folder-open"></i> {{ 'Sujects'|trans }} <span class="fa arrow"></span></a>
+                    <ul class="nav nav-second-level">
+                        <li>
+                            <a class="sub-menu" href="{{ base_url}}/subject/add">{{ 'Add Suject'|trans }}</a>
+                        </li>
+                        <li>
+                            <a class="sub-menu" href="{{ base_url}}/subject/all">{{ 'All Subjects'|trans }}</a>
+                        </li>
+                    </ul>
+                   
+                </li>
+                <!--li>
+                    <a href="javascript:void(0)" onclick="$('#warningModal').modal('show');"><i class="fa fa-file-text-o fa-fw"></i> {{
+'Translate-menu'|trans }}<span class="fa arrow"></span></a>
+                </li-->
+            {% endif %}
+            </ul>
+        </div>
+        
+        
+    </div>
+    
+        <script>
+            
+            
+            $('ul#side-menu li').click(function(e){
+             
+               var uli = $(this).find("ul").attr("aria-expanded");
+                  // cheack click li element
+                if(uli =='true'){
+                    // cheack below li elemet active
+                  
+                    $(this).addClass('active');
+                }
+                else{
+                  
+                    $(this).removeClass('active');
+                }
+                
+            
+            });
+            
+          
+            $( document ).ready(function() {
+              
+            var path= window.location.pathname; 
+            var result = path.split("/");
+            
+            if(result[result.length-2]=='compose'){
+            document.getElementById("compose_main").className="nav nav-second-level collapse in";                                      }
+            
+            
+            });
+            
+        </script>
+       
+    <!-- /.navbar-static-side -->

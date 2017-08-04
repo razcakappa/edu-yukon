@@ -1,0 +1,23 @@
+Project Name: Edu
+Developer: Stephan
+
+
+# Instructions On setting the web application
+
+1. Place the whole 'edu' directory at /var/www/ or which ever web server
+   accessible location.
+2. Make sure to point the Vhost Document root to 'edu/api/'
+3. Make any nessary file/directory permesions and access modifires. Also the
+   'edu/api/var' folder should have proper read/write permisions for webserver.)
+4. In side the 'edu/api' directory run the 'composer update' command. Composer
+   will install any nessary dependencies.
+5. Open file 'edu/api/app/config/config.yml'. Change the line 11 'base_url' to
+   the proper domain.
+6. In the same file at line 45, change the 'base_url' to proper domain, HOwever
+   make sure to keep the '/api/web/app_dev.php' part.
+7. Set up the DB and import the sql file from 'sql' folder.
+8. Open file 'edu/api/app/config/parameters.yml', and change the MySQL
+   seetings.
+9. Now the settings are OK. Access the web application by
+   'http://yourdomain.com/api/web/app_dev.php/login'     
+10. username: adminuser    password: test

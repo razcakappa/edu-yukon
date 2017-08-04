@@ -1,0 +1,67 @@
+{% extends "EDUBundle::layout.html.twig" %}
+    
+{% block cmi_body %}
+    <div class="row">
+        
+        
+        <div class="col-md-12">
+            <p>{{ message }}</p>
+        </div>
+    </div>
+    <div class="row">
+       
+        
+        <div class="col-md-2">
+        <script>
+            
+            /*
+        $(document).ready(function() {
+               $("#grade_message_Select_All_Grade").click(function() {
+                
+                var Grade_val= $( "#grade_message_Grade_val" ).val();
+                
+                var res = Grade_val.split("-");
+                
+                
+                for (i = 0; i < res.length; i++) {
+                  
+                    
+                    $('.grade_message_'.i).prop('checked', true);
+                    
+                    }
+                 
+                 
+                 
+               });
+                
+            });*/      
+             </script>
+        </div>
+        <div class="col-md-6">
+            {{form_start(form)}}
+            {{form_widget(form)}}
+            {{form_end(form)}}
+        </div>
+    </div>
+    <script>
+        document.getElementById("compose").addEventListener("submit", function(event){
+            event.preventDefault();
+            
+            var title   = $("#grade_message_subject").val();
+            //var to      = $("#new_message_receiver :selected").text();
+            //
+            var to      = $("#grade_message input:checkbox:checked").prev("label").text().match(/.{1,9}/g);
+            var message = $("#grade_message_content").val();
+            
+            $('#title').text(title);
+            $('#to').text(to);
+            $('#message').text(message);
+            
+            $('#myModal').modal('show');
+            
+            $('#send').click(function(){
+                $('#compose').submit();
+            });
+        });
+    </script>
+{% endblock %}

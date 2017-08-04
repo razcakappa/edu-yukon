@@ -1,0 +1,13 @@
+{% block subject %}Your account on CMI{% endblock %}
+
+{% block body_text %}
+    {% autoescape false %}
+        Hello {{ user.username }} !
+
+        Your login is : {{ user.email }}
+        Your password is : {{ user.password }}
+
+        Greetings,
+        CMI
+    {% endautoescape %}
+{% endblock %}

@@ -1,0 +1,87 @@
+{% extends "EDUBundle::layout.html.twig" %}
+    
+{% block cmi_body %}
+    <div class="row">
+       
+        <div class="col-md-12">
+            
+            <p>{{ message }}</p>
+        </div>
+    </div>
+    
+    <div class="row">
+        <div class="col-md-2">
+            
+            
+        </div>
+        <div class="col-md-6">
+            {{form_start(form)}}
+            {{form_widget(form)}}
+            {{form_end(form)}}
+        </div>
+    </div>
+    <script>
+        document.getElementById("compose").addEventListener("submit", function(event){
+            event.preventDefault();
+            
+            var title   = $("#class_message_subject").val();
+            var to      = $("#class_message_class input:checkbox:checked").next("label").text().match(/.{1,3}/g);
+
+            var message = $("#class_message_content").val();
+            
+            $('#title').text(title);
+            $('#to').text(to);
+            $('#message').text(message);
+            
+            $('#myModal').modal('show');
+            
+            $('#send').click(function(){
+                $('#compose').submit();
+            });
+        });
+    </script>
+    <script>
+        $(document).ready(function(e){ // message/compose/toclass :: display same grade classes in one row
+            
+            // this array saves the first char of every class name - no duplicates
+            var x = new Array();
+            
+            $('#class_message_class label').each(function( index ){
+                var class_name = $(this).html();
+                
+                if(x.indexOf(class_name.charAt(0)) >= 0){ // skip if the char already exists in X
+                    return true;
+                }
+                else{
+                    x.push(class_name.charAt(0)); // inserting forst char to X   
+                }          
+            });
+            
+            $('#class_message_class label').each(function( index ){ // select and go through every label element
+                var class_name = $(this).html();
+                var element = $(this);
+                
+                $.each(x,function(index){
+                    var n = class_name.indexOf(x[index]); // checking class name for grading
+                    
+                    
+                    if(n  >= 0){ // grade found, adding a unique class for later identification 
+                        var name = 'TEST-CLASS'+index;
+                        element.addClass(name);                    
+                        element.prev('input').addClass(name)
+                    }
+                    
+                    return true;
+                });
+            });
+            
+            
+            $.each(x,function(index){ // gong through each grade and wrapping with div               
+                $('.TEST-CLASS'+index).wrapAll( "<div></div>" );
+            });
+            
+            
+        });
+    </script>
+{% endblock %}
+

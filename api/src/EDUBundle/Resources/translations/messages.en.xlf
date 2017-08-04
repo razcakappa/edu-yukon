@@ -1,0 +1,879 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:jms="urn:jms:translation" version="1.2">
+  <file date="2017-08-04T07:09:02Z" source-language="en" target-language="en" datatype="plaintext" original="not.available">
+    <header>
+      <tool tool-id="JMSTranslationBundle" tool-name="JMSTranslationBundle" tool-version="1.1.0-DEV"/>
+      <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
+    </header>
+    <body>
+      <trans-unit id="d066db997adfcd2420500fd142899287c25f6e23" resname="%ADD_SUBS%">
+        <source>%ADD_SUBS%</source>
+        <target>%ADD_SUBS%</target>
+      </trans-unit>
+      <trans-unit id="4506332e4a75bf554ede8e91fbb447575bdd347a" resname="%AD_NW_SR%">
+        <source>%AD_NW_SR%</source>
+        <target>Add New User</target>
+      </trans-unit>
+      <trans-unit id="9bd78a1904f604b683521ac2306c8308a52eacb5" resname="%Add ClassClassAddForm%">
+        <source>%Add ClassClassAddForm%</source>
+        <target>Add New Class</target>
+      </trans-unit>
+      <trans-unit id="cb03a19ae46fc2a7d298e2304cac7be73dd605c6" resname="%AddNewSubject%">
+        <source>%AddNewSubject%</source>
+        <target>Add New Subject</target>
+      </trans-unit>
+      <trans-unit id="9a87e8f764525224b8e2e6ea7f2c66c7cd3f375e" resname="%ClassDeleted%">
+        <source>%ClassDeleted%</source>
+        <target>Class Deleted</target>
+      </trans-unit>
+      <trans-unit id="97ed438339985c015e8df08c0227c810a1bb18c1" resname="%ClassUpdated%">
+        <source>%ClassUpdated%</source>
+        <target>Class Updated</target>
+      </trans-unit>
+      <trans-unit id="6dc777ddcc69559cf6d564652d799414f39b0e94" resname="%Classes%">
+        <source>%Classes%</source>
+        <target>Classes</target>
+      </trans-unit>
+      <trans-unit id="3474895acfabd6e9a4631e17205ada6480149970" resname="%Classesadded%">
+        <source>%Classesadded%</source>
+        <target>Class Added</target>
+      </trans-unit>
+      <trans-unit id="f93bfc408cacda1ce44c2053348b83e6b14cf6dc" resname="%ClsSubMsg%">
+        <source>%ClsSubMsg%</source>
+        <target>%ClsSubMsg%</target>
+      </trans-unit>
+      <trans-unit id="93d9f4e53c245ebd27642f1eed08097973691a5b" resname="%DeleteClass%">
+        <source>%DeleteClass%</source>
+        <target>Delete Class</target>
+      </trans-unit>
+      <trans-unit id="17dae0fc0d128f4b60a33b56e4aba1fbd193e61a" resname="%DeleteSubject%">
+        <source>%DeleteSubject%</source>
+        <target>Delete Subject</target>
+      </trans-unit>
+      <trans-unit id="a39359dd79af702de77da7b850998edc559b376a" resname="%EDIT_MSG%">
+        <source>%EDIT_MSG%</source>
+        <target>%EDIT_MSG%</target>
+      </trans-unit>
+      <trans-unit id="ac461a5ad30fcc096a6e5d709e9a6f6f30cb313b" resname="%EDIT_NTC_SUB%">
+        <source>%EDIT_NTC_SUB%</source>
+        <target>Subject Assigned</target>
+      </trans-unit>
+      <trans-unit id="3c740261c3a483ec906cbad68ff333857ab71e67" resname="%EDIT_SUB%">
+        <source>%EDIT_SUB%</source>
+        <target>Edit Subject</target>
+      </trans-unit>
+      <trans-unit id="0590fc0f577a91f735be0917fc426a05d27b11da" resname="%EDIT_USER%">
+        <source>%EDIT_USER%</source>
+        <target>Edit User</target>
+      </trans-unit>
+      <trans-unit id="faba9e778c2f0b2185a85dae78a320491c95b538" resname="%ED_CLS%">
+        <source>%ED_CLS%</source>
+        <target>Assign Classes</target>
+      </trans-unit>
+      <trans-unit id="356b32aaac99afcfa5c7325956bcba30a1ad5e2f" resname="%ED_CLS_MSG%">
+        <source>%ED_CLS_MSG%</source>
+        <target>Edit Class Message</target>
+      </trans-unit>
+      <trans-unit id="990cbd40159f7b7e8c34dfd526b0ee0b4602f595" resname="%ED_NTC_CLS%">
+        <source>%ED_NTC_CLS%</source>
+        <target>Classes Assigned</target>
+      </trans-unit>
+      <trans-unit id="b991e8d66df963f141f73e12e45dbb5a7f3aec40" resname="%EditClass%">
+        <source>%EditClass%</source>
+        <target>Edit Class Name</target>
+      </trans-unit>
+      <trans-unit id="4610f43fa664782952091c62654d08161b442844" resname="%EditSubject%">
+        <source>%EditSubject%</source>
+        <target>Update Class</target>
+      </trans-unit>
+      <trans-unit id="1c40a6c7509ba9d472482ff1c366b825663c0c18" resname="%EditSubjects%">
+        <source>%EditSubjects%</source>
+        <target>Assign Subjects</target>
+      </trans-unit>
+      <trans-unit id="9c3eba3476e1b57e2afe64e54e971eeec33e021b" resname="%NO_US_ID%">
+        <source>%NO_US_ID%</source>
+        <target>%NO_US_ID%</target>
+      </trans-unit>
+      <trans-unit id="e04db98ac6d983c56451e20cf720fe4944c17692" resname="%NameEditSubject%">
+        <source>%NameEditSubject%</source>
+        <target>Name of Subject</target>
+      </trans-unit>
+      <trans-unit id="ae3f53c85e0019fb37771e18c2bfc2b8bafe2e48" resname="%NewClassAdded%">
+        <source>%NewClassAdded%</source>
+        <target>New Class Added</target>
+      </trans-unit>
+      <trans-unit id="01ef1de3b0c73fa1a5f81d8a61bbc1cc6f62e6fd" resname="%NewSubjectAdded%">
+        <source>%NewSubjectAdded%</source>
+        <target>New Subject Added</target>
+      </trans-unit>
+      <trans-unit id="4c84c0115f3461d9d3c749c924f37fb26cb63165" resname="%STUDENTS%">
+        <source>%STUDENTS%</source>
+        <target>Students</target>
+      </trans-unit>
+      <trans-unit id="f54c31ba6f2fb9d27991ee36a2c1f8a0f2b2162b" resname="%SUBS_ADDED%">
+        <source>%SUBS_ADDED%</source>
+        <target>%SUBS_ADDED%</target>
+      </trans-unit>
+      <trans-unit id="d0f4d023394dabfd8dc7f1c75af0a831306bccf1" resname="%SUB_ADDED_MSG%">
+        <source>%SUB_ADDED_MSG%</source>
+        <target>%SUB_ADDED_MSG%</target>
+      </trans-unit>
+      <trans-unit id="153ade056bf89020a0b39eec2e41e55929bddfe3" resname="%StudentUpdated%">
+        <source>%StudentUpdated%</source>
+        <target>Student Updated</target>
+      </trans-unit>
+      <trans-unit id="d1129fb644bf3241cd50fc2a9f79736aaf96a57c" resname="%SubAddedWr%">
+        <source>%SubAddedWr%</source>
+        <target>%SubAddedWr%</target>
+      </trans-unit>
+      <trans-unit id="b3d73499faca4781f76559f5fd93f6f9b857a50d" resname="%Subject Updated%">
+        <source>%Subject Updated%</source>
+        <target>Subject Updated</target>
+      </trans-unit>
+      <trans-unit id="a23b4169724f76134edd430d8eecdb47e732a29d" resname="%SubjectDeleted%">
+        <source>%SubjectDeleted%</source>
+        <target>Subject Deleted</target>
+      </trans-unit>
+      <trans-unit id="c027048ac8ce114c62d404a25d8b9d71cd65c183" resname="%Subjects%">
+        <source>%Subjects%</source>
+        <target>All Subjects</target>
+      </trans-unit>
+      <trans-unit id="91ae9883a19e12ae60297d1cee1ad9d526231838" resname="%TEACHERS%">
+        <source>%TEACHERS%</source>
+        <target>Instructors</target>
+      </trans-unit>
+      <trans-unit id="e09052a8e515c1980c4dab6326139334845c9e58" resname="%USER%">
+        <source>%USER%</source>
+        <target>User</target>
+      </trans-unit>
+      <trans-unit id="20cc6f3121e3a24c15f8b40007e3fb27bde20faf" resname="%USERS%">
+        <source>%USERS%</source>
+        <target>All Users</target>
+      </trans-unit>
+      <trans-unit id="9103a88fba3a172857e385630bfb7046c2849c1e" resname="%USER_ADDED%">
+        <source>%USER_ADDED%</source>
+        <target>User Added</target>
+      </trans-unit>
+      <trans-unit id="815a5a3dfa1264514ff20623ad03b2db51c2a974" resname="%US_UD%">
+        <source>%US_UD%</source>
+        <target>User Updated</target>
+      </trans-unit>
+      <trans-unit id="f1629abce46a1a232b97e810bdbb7d10698f46fe" resname="%Update ClassAddClassForm%">
+        <source>%Update ClassAddClassForm%</source>
+        <target>Update Class</target>
+      </trans-unit>
+      <trans-unit id="b486397718a12c9184add826dcb9240314c77f9c" resname="%Update ClassesTeacherEditClass%">
+        <source>%Update ClassesTeacherEditClass%</source>
+        <target>Update Class Teacher</target>
+      </trans-unit>
+      <trans-unit id="c5d206b72081309bc59a6f1147e5fcaf46c82eb4" resname="%Update SubjectBtn%">
+        <source>%Update SubjectBtn%</source>
+        <target>Update Subject</target>
+      </trans-unit>
+      <trans-unit id="c24dea73be219c939ba383126fc17040d6857be6" resname="%Update SubjectEditSubject%">
+        <source>%Update SubjectEditSubject%</source>
+        <target>Update Subject</target>
+      </trans-unit>
+      <trans-unit id="745fbc465a6be854d008864db51d4e6d8e1b4ac2" resname="%Update Subject_EditSubjectForm%">
+        <source>%Update Subject_EditSubjectForm%</source>
+        <target>Assign Subjects</target>
+      </trans-unit>
+      <trans-unit id="44c23493ef4590e2b056736a0c1b836fd0227d0e" resname="%UpdateStudent%">
+        <source>%UpdateStudent%</source>
+        <target>Update Student</target>
+      </trans-unit>
+      <trans-unit id="cf93fd4b77ac186292921033024083e4d805589d" resname="%User%">
+        <source>%User%</source>
+        <target>User</target>
+      </trans-unit>
+      <trans-unit id="cb506e130c83b0bf05b5cdd5032f3ac269db1cf4" resname="%classNameAddClassForm%">
+        <source>%classNameAddClassForm%</source>
+        <target>Class Name</target>
+      </trans-unit>
+      <trans-unit id="424afcdca74b467151fcdbbde8f6737695d66709" resname="%className_addClassFrom%">
+        <source>%className_addClassFrom%</source>
+        <target>Enter Class Name</target>
+      </trans-unit>
+      <trans-unit id="10a716e9433bf7888f234fdf338649cc980d8580" resname="%classesEditSubject%">
+        <source>%classesEditSubject%</source>
+        <target>Add Subjects</target>
+      </trans-unit>
+      <trans-unit id="e0e4e7840a7cff90c8730caf8fc580b346851352" resname="%classesEditSubjectForm%">
+        <source>%classesEditSubjectForm%</source>
+        <target>Assign Subjects to Class</target>
+      </trans-unit>
+      <trans-unit id="c50767e25c2a711900a404051736e812fb905bfb" resname="%classesTeacherEditClass%">
+        <source>%classesTeacherEditClass%</source>
+        <target>Instructor's Assigned Classes</target>
+      </trans-unit>
+      <trans-unit id="c5e803cb05ba3d5f15c391cb181c5b41e8c1f11a" resname="%existContact% is already in the database. Please try with new Phone Number">
+        <source>%existContact% is already in the database. Please try with new Phone Number</source>
+        <target>%existContact% is already in the database. Please try with new Phone Number</target>
+      </trans-unit>
+      <trans-unit id="446df5a926d14c5401a1e5565e65d5f4fa5c7104" resname="%existEmail% is already in the database. Please try with new Email">
+        <source>%existEmail% is already in the database. Please try with new Email</source>
+        <target>%existEmail% is already in the database. Please try with new Email</target>
+      </trans-unit>
+      <trans-unit id="fa5a757b2d2fca35eeecdeca52290fd93234c493" resname="%existPhone% is already in the database. Please try with new Phone Number">
+        <source>%existPhone% is already in the database. Please try with new Phone Number</source>
+        <target>%existPhone% is already in the database. Please try with new Phone Number</target>
+      </trans-unit>
+      <trans-unit id="91571d500a0f44be3681953d0c1b30666a01fce3" resname="%existUname% is already in the database. Please try with new Email">
+        <source>%existUname% is already in the database. Please try with new Email</source>
+        <target>%existUname% is already in the database. Please try with new Email</target>
+      </trans-unit>
+      <trans-unit id="c3cd636a585b20c40ac2df5ffb403e83cb2eef51" resname="Actions">
+        <source>Actions</source>
+        <target>Actions</target>
+      </trans-unit>
+      <trans-unit id="76c09d5fac81040fff2512748ee80e79f8214199" resname="Add New Class">
+        <source>Add New Class</source>
+        <target>Add New Class</target>
+      </trans-unit>
+      <trans-unit id="ac0fe3dbf9b2f1b1eb90e38ecbe07866f50ebe9d" resname="Add New Hall">
+        <source>Add New Hall</source>
+        <target>Add New Hall</target>
+      </trans-unit>
+      <trans-unit id="8773a4af263626c9156db4f2d254c0d67007e114" resname="Add New Subject">
+        <source>Add New Subject</source>
+        <target>Add New Subject</target>
+      </trans-unit>
+      <trans-unit id="92b58c84879dacfc4124d64d74fc92d070157099" resname="Add New User">
+        <source>Add New User</source>
+        <target>Add New User</target>
+      </trans-unit>
+      <trans-unit id="792e1c9d48a357428edb9a008e5795f75e2b5298" resname="Add Newsfeed">
+        <source>Add Newsfeed</source>
+        <target>Add Newsfeed</target>
+      </trans-unit>
+      <trans-unit id="6c158ab2b9dc84044f7b96bf5cfd6acc889d1941" resname="Add Schedule">
+        <source>Add Schedule</source>
+        <target>Add Schedule</target>
+      </trans-unit>
+      <trans-unit id="d03694f136fd26d763e2058019c4f92ff043cfb9" resname="Add Subject">
+        <source>Add Subject</source>
+        <target>Add Subject</target>
+      </trans-unit>
+      <trans-unit id="c1dbe4ae746e93eb038b3ebcc99a4ffd2e23aba7" resname="Add Suject">
+        <source>Add Suject</source>
+        <target>Add Subject</target>
+      </trans-unit>
+      <trans-unit id="46a5f44dd684ed3e201318c04daaf1a21845027b" resname="Add_Message_notification">
+        <source>Add_Message_notification</source>
+        <target>Add_Message_notification</target>
+      </trans-unit>
+      <trans-unit id="75a4b633a09baf6e3a808bafcffc177b185de6fe" resname="Added by">
+        <source>Added by</source>
+        <target>Added by</target>
+      </trans-unit>
+      <trans-unit id="0e75c6a2260ca48552cd58cc7cd818490dfa5c52" resname="All Classes">
+        <source>All Classes</source>
+        <target>All Classes</target>
+      </trans-unit>
+      <trans-unit id="d58e00e939466cb7761cff06fffa786b5ecc0fe3" resname="All Subjects">
+        <source>All Subjects</source>
+        <target>All Subjects</target>
+      </trans-unit>
+      <trans-unit id="7b9ff838019db5ead18883e3432af81a4ae3aa6a" resname="All Tasks">
+        <source>All Tasks</source>
+        <target>All Tasks</target>
+      </trans-unit>
+      <trans-unit id="b4f25a14263364e190fac1252029831005b600df" resname="All Users">
+        <source>All Users</source>
+        <target>All Users</target>
+      </trans-unit>
+      <trans-unit id="42b20413939262092e44bea4bbd4ead8126933eb" resname="Are you sure to delete">
+        <source>Are you sure to delete</source>
+        <target>Are you sure to delete</target>
+      </trans-unit>
+      <trans-unit id="d5b94b620f91853711c9e0d8e800ec79c981b50b" resname="Are you sure to delete subject">
+        <source>Are you sure to delete subject</source>
+        <target>Are you sure to delete subject</target>
+      </trans-unit>
+      <trans-unit id="41ff354b2b330bd1f8a0587675e43cb32a731f33" resname="Class">
+        <source>Class</source>
+        <target>Class</target>
+      </trans-unit>
+      <trans-unit id="7ae0127291218216ff9bb4d88f31f63c5e1d4a4f" resname="Class ID">
+        <source>Class ID</source>
+        <target>Class ID</target>
+      </trans-unit>
+      <trans-unit id="23e735f2e42f0ee01fd065b66b276180dd776b09" resname="Class Name">
+        <source>Class Name</source>
+        <target>Class Name</target>
+      </trans-unit>
+      <trans-unit id="eeec90853fc9b89566dd858a99cee46219c6fb39" resname="ClassName">
+        <source>ClassName</source>
+        <target>ClassName</target>
+      </trans-unit>
+      <trans-unit id="ed1846afee3be21521286932b99e2aeae9e6414a" resname="Classes">
+        <source>Classes</source>
+        <target>Classes</target>
+      </trans-unit>
+      <trans-unit id="4f9be057f0ea5d2ba72fd2c810e8d7b9aa98b469" resname="Content">
+        <source>Content</source>
+        <target>Content</target>
+      </trans-unit>
+      <trans-unit id="e8027c62cd2927a057d0ecee2dc38deb4c547f34" resname="Content_notification">
+        <source>Content_notification</source>
+        <target>Content_notification</target>
+      </trans-unit>
+      <trans-unit id="f12dd1134c1af88fc3848af189be28e9e6c9f427" resname="Current Class">
+        <source>Current Class</source>
+        <target>Current Class</target>
+      </trans-unit>
+      <trans-unit id="96ad3572482144411dd2717e1f9a6c4b8006c4bf" resname="Current Parent">
+        <source>Current Parent</source>
+        <target>Current Parent</target>
+      </trans-unit>
+      <trans-unit id="eb9a4bc1c0c153e4e4b042a79113b815b7e3021d" resname="Date">
+        <source>Date</source>
+        <target>Date</target>
+      </trans-unit>
+      <trans-unit id="2aafad40063bdb20757ad69b9fc9e0a06d6ca1c1" resname="Date Added">
+        <source>Date Added</source>
+        <target>Date Added</target>
+      </trans-unit>
+      <trans-unit id="f6fdbe48dc54dd86f63097a03bd24094dedd713a" resname="Delete">
+        <source>Delete</source>
+        <target>Delete</target>
+      </trans-unit>
+      <trans-unit id="3ab663204e39630da00d31895f58072ba200aafd" resname="Delete_notification">
+        <source>Delete_notification</source>
+        <target>Delete_notification</target>
+      </trans-unit>
+      <trans-unit id="55f8ebc805e65b5b71ddafdae390e3be2bcd69af" resname="Description">
+        <source>Description</source>
+        <target>Description</target>
+      </trans-unit>
+      <trans-unit id="a1b308ec704aed240db754a1862adcf67e19f001" resname="Due Date">
+        <source>Due Date</source>
+        <target>Due Date</target>
+      </trans-unit>
+      <trans-unit id="334a85f1b16e32b6ba9a69313c6f584edef482cc" resname="Dutch">
+        <source>Dutch</source>
+        <target>Dutch</target>
+      </trans-unit>
+      <trans-unit id="5301648dcf6b53cefc9ed52999aaa92d4603cae0" resname="Edit">
+        <source>Edit</source>
+        <target>Edit</target>
+      </trans-unit>
+      <trans-unit id="5e91bf1c7a4c2af8bd0ca6c8e6aaf78f2a2918ab" resname="Edit_notification">
+        <source>Edit_notification</source>
+        <target>Edit_notification</target>
+      </trans-unit>
+      <trans-unit id="84add5b2952787581cb9a8851eef63d1ec75d22b" resname="Email">
+        <source>Email</source>
+        <target>Email</target>
+      </trans-unit>
+      <trans-unit id="649df08a448ee3fa90f3746baaf6b0907df42c91" resname="English">
+        <source>English</source>
+        <target>English</target>
+      </trans-unit>
+      <trans-unit id="7f2f6a15cf8da2b27e5a4af47b58e7ad71c0b3d9" resname="Error">
+        <source>Error</source>
+        <target>Error</target>
+      </trans-unit>
+      <trans-unit id="44389f6a466eaabf5c1db729e369511134e2b03b" resname="French">
+        <source>French</source>
+        <target>French</target>
+      </trans-unit>
+      <trans-unit id="3f66052a107eaf9bae7cad0f61fb462f47ec2c47" resname="From">
+        <source>From</source>
+        <target>From</target>
+      </trans-unit>
+      <trans-unit id="f03e2d07687c3f501c6eacf30e658f457a05be25" resname="Go Back">
+        <source>Go Back</source>
+        <target>Go Back</target>
+      </trans-unit>
+      <trans-unit id="10707c3fde5a05652f97bca4deca2af141aa307a" resname="Hall Name">
+        <source>Hall Name</source>
+        <target>Hall Name</target>
+      </trans-unit>
+      <trans-unit id="50e19fda0d5b4b74a4a1a1d584e56578693a4ea4" resname="Image">
+        <source>Image</source>
+        <target>Image</target>
+      </trans-unit>
+      <trans-unit id="44caf74675ceb79ba5cc13bafa102509369c2b53" resname="Inbox">
+        <source>Inbox</source>
+        <target>Inbox</target>
+      </trans-unit>
+      <trans-unit id="4b631f69842530d659306c8f06dbad594a6b1807" resname="Info">
+        <source>Info</source>
+        <target>Info</target>
+      </trans-unit>
+      <trans-unit id="8830395e90475fb75db8ae967614e07657da77c6" resname="Language_notification">
+        <source>Language_notification</source>
+        <target>Language_notification</target>
+      </trans-unit>
+      <trans-unit id="2df48ad223beccb8f6821904f38bb72e782904a8" resname="Last Login">
+        <source>Last Login</source>
+        <target>Last Login</target>
+      </trans-unit>
+      <trans-unit id="126dd3b70a5ca7818e0e26ad1e008d23b0f14a53" resname="Logs">
+        <source>Logs</source>
+        <target>Logs</target>
+      </trans-unit>
+      <trans-unit id="bf58d17e561b1b858e35f9202f811297dac2e9db" resname="Manage">
+        <source>Manage</source>
+        <target>Manage</target>
+      </trans-unit>
+      <trans-unit id="68f4145fee7dde76afceb910165924ad14cf0d00" resname="Message">
+        <source>Message</source>
+        <target>Message</target>
+      </trans-unit>
+      <trans-unit id="709a23220f2c3d64d1e1d6d18c4d5280f8d82fca" resname="Name">
+        <source>Name</source>
+        <target>Name</target>
+      </trans-unit>
+      <trans-unit id="55f5e23e405b57ef22e6fd9fb311c58657d0261b" resname="New Class">
+        <source>New Class</source>
+        <target>New Class</target>
+      </trans-unit>
+      <trans-unit id="0e898049428467d3f10d3575efe9aca3c973047b" resname="News Content">
+        <source>News Content</source>
+        <target>News Content</target>
+      </trans-unit>
+      <trans-unit id="9e526eca0c89b6850af02f86be48119b879fd768" resname="Not assigned yet">
+        <source>Not assigned yet</source>
+        <target>Not assigned yet</target>
+      </trans-unit>
+      <trans-unit id="e42e0145a1d339341310422ab523e79a8b81fa6a" resname="PDF URL">
+        <source>PDF URL</source>
+        <target>PDF URL</target>
+      </trans-unit>
+      <trans-unit id="cc31ede52ce647f7167eaddb6e0f7d77fbd82f42" resname="Parent cannot be deleted. Already assigned as parent for %childs% student(s)">
+        <source>Parent cannot be deleted. Already assigned as parent for %childs% student(s)</source>
+        <target>Parent cannot be deleted. Already assigned as parent for %childs% student(s)</target>
+      </trans-unit>
+      <trans-unit id="ab25d61bb12492027e2633997eea946c0f65a6b7" resname="Phone Number">
+        <source>Phone Number</source>
+        <target>Phone Number</target>
+      </trans-unit>
+      <trans-unit id="bf042ca5f46f0971aae8be608d4b82ebdd853815" resname="ROLE_ADMIN">
+        <source>ROLE_ADMIN</source>
+        <target>ROLE_ADMIN</target>
+      </trans-unit>
+      <trans-unit id="76b200d7334d0c6844f519c84d057dc61a0f6e5e" resname="ROLE_PARENT">
+        <source>ROLE_PARENT</source>
+        <target>ROLE_PARENT</target>
+      </trans-unit>
+      <trans-unit id="5f6bf67f752ea580598b362ff461e1dad5139985" resname="ROLE_STUDENT">
+        <source>ROLE_STUDENT</source>
+        <target>ROLE_STUDENT</target>
+      </trans-unit>
+      <trans-unit id="b33c2d7cc9b26ce6e8102a21daf0b209dc18e8d6" resname="ROLE_TEACHER">
+        <source>ROLE_TEACHER</source>
+        <target>ROLE_TEACHER</target>
+      </trans-unit>
+      <trans-unit id="c53aa21899f3158f26c5607d4caccc3d24548636" resname="Read Message">
+        <source>Read Message</source>
+        <target>Read Message</target>
+      </trans-unit>
+      <trans-unit id="78cbf8eb1d8fbe5db88f5c1a9c458b79c931b4c8" resname="Recipients">
+        <source>Recipients</source>
+        <target>Recipients</target>
+      </trans-unit>
+      <trans-unit id="b6745ee5b60fb1daa52cab9ccd493339f94d4161" resname="Role Admin cannot have  Student, Teacher or Parent roles">
+        <source>Role Admin cannot have  Student, Teacher or Parent roles</source>
+        <target>Role Admin cannot have  Student, Teacher or Parent roles</target>
+      </trans-unit>
+      <trans-unit id="44302f6181523b185a43c27b5769cef47cbc0d74" resname="Role Student cannot have Admin, Teacher or Parent roles">
+        <source>Role Student cannot have Admin, Teacher or Parent roles</source>
+        <target>Role Student cannot have Admin, Teacher or Parent roles</target>
+      </trans-unit>
+      <trans-unit id="17b874d289117b1353bc5080960074585aed4227" resname="Sender">
+        <source>Sender</source>
+        <target>Sender</target>
+      </trans-unit>
+      <trans-unit id="fcfac3efb6ae696fcb48427ff359561932b8f8e8" resname="Students">
+        <source>Students</source>
+        <target>Students</target>
+      </trans-unit>
+      <trans-unit id="8d183dbdcea3b29906090bd83fa6fa37923cc8ec" resname="Subject">
+        <source>Subject</source>
+        <target>Subject</target>
+      </trans-unit>
+      <trans-unit id="9bc70843a4abc1d78fa16bd18fd63b160ad697c9" resname="Subject ID">
+        <source>Subject ID</source>
+        <target>Subject ID</target>
+      </trans-unit>
+      <trans-unit id="4789b2b79a3139c3aeb8b66499333773486e0e75" resname="Subject Name">
+        <source>Subject Name</source>
+        <target>Subject Name</target>
+      </trans-unit>
+      <trans-unit id="278947dee289782f78903bd4d2e463a039a517fd" resname="Subjects">
+        <source>Subjects</source>
+        <target>Subjects</target>
+      </trans-unit>
+      <trans-unit id="212f70d3597fbdc6dbbddc234b6e792d4846d702" resname="Sujects">
+        <source>Sujects</source>
+        <target>Sujects</target>
+      </trans-unit>
+      <trans-unit id="da33ddcb584a57879dff33155f40a4dde93f3480" resname="Teacher">
+        <source>Teacher</source>
+        <target>Teacher</target>
+      </trans-unit>
+      <trans-unit id="9ab423bc0b92a11ac51c0c3dd3a3a23bbd06edf6" resname="Teacher Name">
+        <source>Teacher Name</source>
+        <target>Teacher Name</target>
+      </trans-unit>
+      <trans-unit id="1a9095d76e127a9f67dd771455b3dc617b0fe247" resname="Teacher can not be deleted. Already assigned as parent for %students% student(s)">
+        <source>Teacher can not be deleted. Already assigned as parent for %students% student(s)</source>
+        <target>Teacher can not be deleted. Already assigned as parent for %students% student(s)</target>
+      </trans-unit>
+      <trans-unit id="f8e1653fd6983d84ebd07eaa44715d787dbb1d62" resname="Teacher can not be deleted. Already assigned to %classes% class(es)">
+        <source>Teacher can not be deleted. Already assigned to %classes% class(es)</source>
+        <target>Teacher can not be deleted. Already assigned to %classes% class(es)</target>
+      </trans-unit>
+      <trans-unit id="f2604f9b72ad42b1d523a572d48c056f91b1cfd4" resname="Teachers">
+        <source>Teachers</source>
+        <target>Instructors</target>
+      </trans-unit>
+      <trans-unit id="768e0c1c69573fb588f61f1308a015c11468e05f" resname="Title">
+        <source>Title</source>
+        <target>Title</target>
+      </trans-unit>
+      <trans-unit id="ae79ea1e9c6391a9ed83a2e18a031b835feec0c9" resname="To">
+        <source>To</source>
+        <target>To</target>
+      </trans-unit>
+      <trans-unit id="d6b8d335032a8136918a6f31c518f24c3880db9a" resname="Translate-menu">
+        <source>Translate-menu</source>
+        <target>Translate-menu</target>
+      </trans-unit>
+      <trans-unit id="bfbb548c3834022ad286d665228dc6db09ebdedc" resname="Translate-popup-button-no">
+        <source>Translate-popup-button-no</source>
+        <target>Translate-popup-button-no</target>
+      </trans-unit>
+      <trans-unit id="77e3add270c181dd4f94046e6ca78a185809cec3" resname="Translate-popup-button-yes">
+        <source>Translate-popup-button-yes</source>
+        <target>Translate-popup-button-yes</target>
+      </trans-unit>
+      <trans-unit id="c36e2d954d44d6e2575f6535cb3de2d388146697" resname="Translate-popup-content">
+        <source>Translate-popup-content</source>
+        <target>Translate-popup-content</target>
+      </trans-unit>
+      <trans-unit id="d613ef7cfc4d51e6870501ac94b2e1aab9536751" resname="Translate-popup-heading">
+        <source>Translate-popup-heading</source>
+        <target>Translate-popup-heading</target>
+      </trans-unit>
+      <trans-unit id="6ca8ec8e6541daf1920c515cd9f54410b0678a33" resname="Unread Message">
+        <source>Unread Message</source>
+        <target>Unread Message</target>
+      </trans-unit>
+      <trans-unit id="84c29015de33e5d22422382a372caba5c58f8c01" resname="Username">
+        <source>Username</source>
+        <target>Username</target>
+      </trans-unit>
+      <trans-unit id="57f2b181d0a5e79a147ea1cdf41457f58dbbb3c9" resname="Users">
+        <source>Users</source>
+        <target>Users</target>
+      </trans-unit>
+      <trans-unit id="69bd4ef9fbd0894a22759c3766b859defbdedbc8" resname="View">
+        <source>View</source>
+        <target>View</target>
+      </trans-unit>
+      <trans-unit id="5397e0583f14f6c88de06b1ef28f460a1fb5b0ae" resname="Yes">
+        <source>Yes</source>
+        <target>Yes</target>
+      </trans-unit>
+      <trans-unit id="4cf9c9735db7f0c3e1bb44f1de1f5cd79100c278" resname="Yes, Delete">
+        <source>Yes, Delete</source>
+        <target>Yes, Delete</target>
+      </trans-unit>
+      <trans-unit id="9ddfbb83e730741303958748825b3033f8fd01cf" resname="Yes, Delete this news">
+        <source>Yes, Delete this news</source>
+        <target>Yes, Delete this news</target>
+      </trans-unit>
+      <trans-unit id="cd2e530729277385c058c774fb96f7a9102eb1d0" resname="allUser-Address">
+        <source>allUser-Address</source>
+        <target>Address</target>
+      </trans-unit>
+      <trans-unit id="0d8a61ecebcfc93238479dbc8efe0369a4ac2ec7" resname="allUser-Email">
+        <source>allUser-Email</source>
+        <target>allUser-Email</target>
+      </trans-unit>
+      <trans-unit id="7fc371078e0554e7cafa7b5a8ce6f63bee752142" resname="allUser-Language">
+        <source>allUser-Language</source>
+        <target>Language</target>
+      </trans-unit>
+      <trans-unit id="e3f4830512b285a44e459521f117133b4ce2a264" resname="allUser-Name">
+        <source>allUser-Name</source>
+        <target>allUser-Name</target>
+      </trans-unit>
+      <trans-unit id="2ccdffcaebe775af85a376062c6579454cd598a4" resname="allUser-Postcode">
+        <source>allUser-Postcode</source>
+        <target>Postal Code</target>
+      </trans-unit>
+      <trans-unit id="eb51b5da08e41a22f3793fc8072b9b6441d6bb63" resname="allUser-Role">
+        <source>allUser-Role</source>
+        <target>Role</target>
+      </trans-unit>
+      <trans-unit id="598e81769025729a35aefdc25980979d1106b7dd" resname="allUser-Username">
+        <source>allUser-Username</source>
+        <target>allUser-Username</target>
+      </trans-unit>
+      <trans-unit id="d2de8cf3dba1c1150dafb6ae9a54ce3238fa90c7" resname="allUser-conatct_number">
+        <source>allUser-conatct_number</source>
+        <target>Mobile</target>
+      </trans-unit>
+      <trans-unit id="c8486ef7a2c5ef1222780e1199dce4a96c04396c" resname="allUser-lastLogin">
+        <source>allUser-lastLogin</source>
+        <target>allUser-lastLogin</target>
+      </trans-unit>
+      <trans-unit id="e2a0c7b10c6c5b286ac57f8483eedc57042ce144" resname="allUser-phoneNumber">
+        <source>allUser-phoneNumber</source>
+        <target>allUser-phoneNumber</target>
+      </trans-unit>
+      <trans-unit id="4ed4e31f52226324e9aa04ddda252f7593c1c972" resname="are u sure?">
+        <source>are u sure?</source>
+        <target>are u sure?</target>
+      </trans-unit>
+      <trans-unit id="2617961a56669ff09248cacd1aa2db4146b76941" resname="class-all-popup-heading">
+        <source>class-all-popup-heading</source>
+        <target>Class Info</target>
+      </trans-unit>
+      <trans-unit id="9625787b43fa1f05ba3d0b78747165fddf6f8b85" resname="class_name_all_view">
+        <source>class_name_all_view</source>
+        <target>Class Name</target>
+      </trans-unit>
+      <trans-unit id="35f2970a4184a9efcf0b57aa63d58c42dd6fdbd8" resname="class_student-csv-box-title">
+        <source>class_student-csv-box-title</source>
+        <target>class_student-csv-box-title</target>
+      </trans-unit>
+      <trans-unit id="070401f7ca2ffec741605fb0a9468512b1ad57a8" resname="class_subjects_all_view">
+        <source>class_subjects_all_view</source>
+        <target>Subjects (comma separated)</target>
+      </trans-unit>
+      <trans-unit id="fcc689ebba7cbc1afd6cd97dbc9d2effe443d1ff" resname="class_subs-csv-box-title">
+        <source>class_subs-csv-box-title</source>
+        <target>class_subs-csv-box-title</target>
+      </trans-unit>
+      <trans-unit id="5fe073dbb24d634c9b8206f61db3e57072b1254f" resname="class_taskByTeacher">
+        <source>class_taskByTeacher</source>
+        <target>class_taskByTeacher</target>
+      </trans-unit>
+      <trans-unit id="63aec7d0a4b93190941c61ee0281c87d6730ad14" resname="class_teacher-csv-box-title">
+        <source>class_teacher-csv-box-title</source>
+        <target>class_teacher-csv-box-title</target>
+      </trans-unit>
+      <trans-unit id="c99ed614d02c36a61037c613300cce870194c053" resname="classes-csv-box-title">
+        <source>classes-csv-box-title</source>
+        <target>classes-csv-box-title</target>
+      </trans-unit>
+      <trans-unit id="788b8360b52b701a8bc2278aac895d44c973218d" resname="csv-downlord">
+        <source>csv-downlord</source>
+        <target>csv-downlord</target>
+      </trans-unit>
+      <trans-unit id="8001759b7b47e49f1e92d7126e41664df8b448d3" resname="csv-user-import">
+        <source>csv-user-import</source>
+        <target>csv-user-import</target>
+      </trans-unit>
+      <trans-unit id="9ba5a091c5c2cefc8b200cdeaa95a7b4c53c923c" resname="csv-user-sample">
+        <source>csv-user-sample</source>
+        <target>csv-user-sample</target>
+      </trans-unit>
+      <trans-unit id="18d5e9d4d88cb3d48e2436a7b984d65173b96627" resname="csv-user-upload">
+        <source>csv-user-upload</source>
+        <target>csv-user-upload</target>
+      </trans-unit>
+      <trans-unit id="3e8fce875e20c9366d9794aaa71ccba07b7a6107" resname="csvValidationButton-format_correct">
+        <source>csvValidationButton-format_correct</source>
+        <target>csvValidationButton-format_correct</target>
+      </trans-unit>
+      <trans-unit id="ed205efae27ae2aa89c1a444b9a1d8df262d29c7" resname="csvValidationButton-format_wrong">
+        <source>csvValidationButton-format_wrong</source>
+        <target>csvValidationButton-format_wrong</target>
+      </trans-unit>
+      <trans-unit id="54181926d1e14139d56c5ac8c6309520703f3a6f" resname="csv_error">
+        <source>csv_error</source>
+        <target>csv_error</target>
+      </trans-unit>
+      <trans-unit id="91e67d221edfcc2971d190e42f3916e0c4c20e7f" resname="csv_error_msg">
+        <source>csv_error_msg</source>
+        <target>csv_error_msg</target>
+      </trans-unit>
+      <trans-unit id="920c2c2bb13c20e0062e5dd6025c8e8a7fe7291f" resname="csv_sucess">
+        <source>csv_sucess</source>
+        <target>csv_sucess</target>
+      </trans-unit>
+      <trans-unit id="66c233271f80f9197057ec44c47431f5bcd3fcf1" resname="csv_sucess_msg">
+        <source>csv_sucess_msg</source>
+        <target>csv_sucess_msg</target>
+      </trans-unit>
+      <trans-unit id="e6e4fca8624a54cd834e6de0613bcfd292b34ac3" resname="halls-csv-box-title-csv-box-title">
+        <source>halls-csv-box-title-csv-box-title</source>
+        <target>halls-csv-box-title-csv-box-title</target>
+      </trans-unit>
+      <trans-unit id="a9eef4fc20f657cad8fb29b4d1f910378d8591aa" resname="news-all-popup-Content">
+        <source>news-all-popup-Content</source>
+        <target>news-all-popup-Content</target>
+      </trans-unit>
+      <trans-unit id="029613b1b3f00721ef76bf1e86a81676e1fc90e8" resname="news-all-popup-addedBy">
+        <source>news-all-popup-addedBy</source>
+        <target>news-all-popup-addedBy</target>
+      </trans-unit>
+      <trans-unit id="349b7379d6e966fa867faa1961796d5b8bb08632" resname="news-all-popup-dateAdded">
+        <source>news-all-popup-dateAdded</source>
+        <target>news-all-popup-dateAdded</target>
+      </trans-unit>
+      <trans-unit id="aaf94ddf09cfe5d07c9d17ae265451649d2f18c9" resname="news-all-popup-heading">
+        <source>news-all-popup-heading</source>
+        <target>news-all-popup-heading</target>
+      </trans-unit>
+      <trans-unit id="d682d0f9d319b64ee731fcb7eaeacba57f6baadb" resname="news-all-popup-imagePath">
+        <source>news-all-popup-imagePath</source>
+        <target>news-all-popup-imagePath</target>
+      </trans-unit>
+      <trans-unit id="676a40595b4ad23418133b1555fbfa7f831b98f9" resname="news-all-popup-title">
+        <source>news-all-popup-title</source>
+        <target>news-all-popup-title</target>
+      </trans-unit>
+      <trans-unit id="9954d0068cd0b2aed7faae53869442379991c808" resname="not-assigned">
+        <source>not-assigned</source>
+        <target>not-assigned</target>
+      </trans-unit>
+      <trans-unit id="57f1502c41d924e7a7081a36ab31c4e77a006af8" resname="notification_outbox_btn">
+        <source>notification_outbox_btn</source>
+        <target>notification_outbox_btn</target>
+      </trans-unit>
+      <trans-unit id="390249f8f3b585bab3763faad09f431e3b4e35f8" resname="parentUser-chuld">
+        <source>parentUser-chuld</source>
+        <target>parentUser-chuld</target>
+      </trans-unit>
+      <trans-unit id="9791f474963eea603193c80586224d8f0bb197ed" resname="parentUser-email">
+        <source>parentUser-email</source>
+        <target>parentUser-email</target>
+      </trans-unit>
+      <trans-unit id="b143ca507ef63dbee2159e6bae0c800d26187cd1" resname="parentUser-lastLogin">
+        <source>parentUser-lastLogin</source>
+        <target>parentUser-lastLogin</target>
+      </trans-unit>
+      <trans-unit id="206440e81260f51c92537e66c6e05bb5ccb4be8c" resname="parentUser-name">
+        <source>parentUser-name</source>
+        <target>parentUser-name</target>
+      </trans-unit>
+      <trans-unit id="0f824ccecfcac311c21ead12e9653bdfb31e0a32" resname="parentUser-phoneNumber">
+        <source>parentUser-phoneNumber</source>
+        <target>parentUser-phoneNumber</target>
+      </trans-unit>
+      <trans-unit id="e57b560fa80adb8076f9c20b5c63497fd6df33b9" resname="parentUser-username">
+        <source>parentUser-username</source>
+        <target>parentUser-username</target>
+      </trans-unit>
+      <trans-unit id="554ca95a506ea2d740de688f8c861fcf34ded21b" resname="studenUser-class">
+        <source>studenUser-class</source>
+        <target>Class</target>
+      </trans-unit>
+      <trans-unit id="08b4acf0983c8e967b9b84e57b5803c602bda7bf" resname="studenUser-email">
+        <source>studenUser-email</source>
+        <target>Email</target>
+      </trans-unit>
+      <trans-unit id="e4fa825069d0e7296b88e1b6511a89d26357b62d" resname="studenUser-lastLogin">
+        <source>studenUser-lastLogin</source>
+        <target>Last Login</target>
+      </trans-unit>
+      <trans-unit id="0273daf40b86c1bee0896f0d492aa69522720feb" resname="studenUser-name">
+        <source>studenUser-name</source>
+        <target>Name</target>
+      </trans-unit>
+      <trans-unit id="77c01fd93e17268f5cfeeee07c950c5855f4276c" resname="studenUser-phoneNumber">
+        <source>studenUser-phoneNumber</source>
+        <target>Phone Number</target>
+      </trans-unit>
+      <trans-unit id="a8c9854b5a9be7ff957482d91f5e44f166158fb9" resname="studenUser-username">
+        <source>studenUser-username</source>
+        <target>Username</target>
+      </trans-unit>
+      <trans-unit id="ad896eb9432bcd6d0df9fd63985eeba21bc37e00" resname="studentUser-subject">
+        <source>studentUser-subject</source>
+        <target>Subjects</target>
+      </trans-unit>
+      <trans-unit id="48b44c279fac68a2be476e9fc56c52abaa625662" resname="student_list_view_class_column_title">
+        <source>student_list_view_class_column_title</source>
+        <target>student_list_view_class_column_title</target>
+      </trans-unit>
+      <trans-unit id="3d00bb200696fffb9db527cd3db98d2041458861" resname="student_parent-csv-box-title">
+        <source>student_parent-csv-box-title</source>
+        <target>Parent</target>
+      </trans-unit>
+      <trans-unit id="43a23cf94bf1be9fa0fc910d0aee68537847cabf" resname="subjects-csv-box-title">
+        <source>subjects-csv-box-title</source>
+        <target>subjects-csv-box-title</target>
+      </trans-unit>
+      <trans-unit id="62a15fe343b668c62d1a57212ec3523f163df44b" resname="teacherUser-children">
+        <source>teacherUser-children</source>
+        <target>Children</target>
+      </trans-unit>
+      <trans-unit id="74213402604a7da5d882f4351749240bb77aa345" resname="teacherUser-email">
+        <source>teacherUser-email</source>
+        <target>Email</target>
+      </trans-unit>
+      <trans-unit id="fa3e33edec4b4f30ea1de9fc40b7d0b5bcefb2bf" resname="teacherUser-lastLogin">
+        <source>teacherUser-lastLogin</source>
+        <target>Last Login</target>
+      </trans-unit>
+      <trans-unit id="40cec8434faba49996e867459dfd9d3e6cb483dd" resname="teacherUser-name">
+        <source>teacherUser-name</source>
+        <target>Name</target>
+      </trans-unit>
+      <trans-unit id="96a96c3f57e7b6e87d3008f694bf540834056090" resname="teacherUser-phoneNumber">
+        <source>teacherUser-phoneNumber</source>
+        <target>Phone Number</target>
+      </trans-unit>
+      <trans-unit id="a833702c1fd03e9fc387fa7f1d9ad16b40a5c797" resname="teacherUser-subjects">
+        <source>teacherUser-subjects</source>
+        <target>Subjects</target>
+      </trans-unit>
+      <trans-unit id="021281f590914e0d0a50044398d0c470a1d18fa2" resname="teacherUser-userName">
+        <source>teacherUser-userName</source>
+        <target>Username</target>
+      </trans-unit>
+      <trans-unit id="f8ed9ca3119a2e3fdfd1b7c45710fdba03576871" resname="teacher_subjects-csv-box-title">
+        <source>teacher_subjects-csv-box-title</source>
+        <target>teacher_subjects-csv-box-title</target>
+      </trans-unit>
+      <trans-unit id="1f96c2a8733907a208fbc2ca53aef0f5d1e743b2" resname="user-all-popup-heading">
+        <source>user-all-popup-heading</source>
+        <target>User Info</target>
+      </trans-unit>
+      <trans-unit id="5f1ad613d8555d958917a607e8e0522b36bb109b" resname="user.phoneNumber">
+        <source>user.phoneNumber</source>
+        <target>user.phoneNumber</target>
+      </trans-unit>
+      <trans-unit id="7b2e9d910c214ff466c555d7bcd8044221fc1644" resname="user_admin">
+        <source>user_admin</source>
+        <target>user_admin</target>
+      </trans-unit>
+      <trans-unit id="62508976a736efff58c04be5029e3d4e7a280858" resname="user_language_english">
+        <source>user_language_english</source>
+        <target>English</target>
+      </trans-unit>
+      <trans-unit id="36bb62a0ed7df36569569f1a002c5ac734e8e44c" resname="user_language_france">
+        <source>user_language_france</source>
+        <target>French</target>
+      </trans-unit>
+      <trans-unit id="1fdcdd8100e6d1bff5cfeeff094fdd00f67623e8" resname="user_language_netherland">
+        <source>user_language_netherland</source>
+        <target>Dutch</target>
+      </trans-unit>
+      <trans-unit id="87191eb79ec5dbe054393b53fbb8d5368c15de16" resname="user_parent">
+        <source>user_parent</source>
+        <target>Parent</target>
+      </trans-unit>
+      <trans-unit id="60b2ff80fcc518c8972180c5dc1c4e97c2816110" resname="user_student">
+        <source>user_student</source>
+        <target>Student</target>
+      </trans-unit>
+      <trans-unit id="62d0fefcc24e925674612feb27d1df4a1010ad68" resname="user_teacher">
+        <source>user_teacher</source>
+        <target>Instructor</target>
+      </trans-unit>
+      <trans-unit id="7232459f6bf80dd904a8cefe2bdccd2cf99eb32a" resname="users-csv-box-title">
+        <source>users-csv-box-title</source>
+        <target>users-csv-box-title</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

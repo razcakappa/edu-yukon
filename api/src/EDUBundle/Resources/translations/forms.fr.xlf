@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:jms="urn:jms:translation" version="1.2">
+  <file date="2017-08-03T19:02:57Z" source-language="en" target-language="fr" datatype="plaintext" original="not.available">
+    <header>
+      <tool tool-id="JMSTranslationBundle" tool-name="JMSTranslationBundle" tool-version="1.1.0-DEV"/>
+      <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
+    </header>
+    <body>
+      <trans-unit id="da39a3ee5e6b4b0d3255bfef95601890afd80709" resname="">
+        <source></source>
+        <target></target>
+        <jms:reference-file line="63">/../src/EDUBundle/Form/UserEditType.php</jms:reference-file>
+        <jms:reference-file line="90">/../src/EDUBundle/Form/UserType.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="b0dc2c0fae6ba4d10c5fd3dc1f67706b5f7e7574" resname="Add Classes_classSubjectType">
+        <source>Add Classes_classSubjectType</source>
+        <target>Add Classes_classSubjectType</target>
+        <jms:reference-file line="36">/../src/EDUBundle/Form/ClassSubjectType.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="fe2151855dd78ca7de6492c39066dcc851ecf170" resname="Add User_addUserFrom">
+        <source>Add User_addUserFrom</source>
+        <target>Add User_addUserFrom</target>
+        <jms:reference-file line="109">/../src/EDUBundle/Form/UserType.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="0618c0e675f259c3605771f3fa013bd29f10015b" resname="Add to Student_classType">
+        <source>Add to Student_classType</source>
+        <target>Add to Student_classType</target>
+        <jms:reference-file line="45">/../src/EDUBundle/Form/ClassType.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="fde6049515e69faeb885c6d7813429b7d0ca3b4f" resname="AddClass_classTypeform">
+        <source>AddClass_classTypeform</source>
+        <target>AddClass_classTypeform</target>
+        <jms:reference-file line="33">/../src/EDUBundle/Form/AddClassType.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="334a85f1b16e32b6ba9a69313c6f584edef482cc" resname="Dutch">
+        <source>Dutch</source>
+        <target>Dutch</target>
+        <jms:reference-file line="61">/../src/EDUBundle/Form/UserEditType.php</jms:reference-file>
+        <jms:reference-file line="88">/../src/EDUBundle/Form/UserType.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="700070ed758fa263043dd7613be5373eb206c522" resname="Edit User_edit_user_form">
+        <source>Edit User_edit_user_form</source>
+        <target>Edit User_edit_user_form</target>
+        <jms:reference-file line="85">/../src/EDUBundle/Form/UserEditType.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="649df08a448ee3fa90f3746baaf6b0907df42c91" resname="English">
+        <source>English</source>
+        <target>English</target>
+        <jms:reference-file line="60">/../src/EDUBundle/Form/UserEditType.php</jms:reference-file>
+        <jms:reference-file line="87">/../src/EDUBundle/Form/UserType.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="44389f6a466eaabf5c1db729e369511134e2b03b" resname="French">
+        <source>French</source>
+        <target>French</target>
+        <jms:reference-file line="59">/../src/EDUBundle/Form/UserEditType.php</jms:reference-file>
+        <jms:reference-file line="86">/../src/EDUBundle/Form/UserType.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="89b86ab0e66f527166d98df92ddbcf5416ed58f6" resname="Language">
+        <source>Language</source>
+        <target>Language</target>
+        <jms:reference-file line="62">/../src/EDUBundle/Form/UserEditType.php</jms:reference-file>
+        <jms:reference-file line="89">/../src/EDUBundle/Form/UserType.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="4a9d7a5036db9b8364b6d03f28618da4fce5780f" resname="Subjects_classSubjectEditType">
+        <source>Subjects_classSubjectEditType</source>
+        <target>Subjects_classSubjectEditType</target>
+        <jms:reference-file line="32">/../src/EDUBundle/Form/ClassSubjectEditType.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="f26e618665611d6cc7d2cf70d3e278660c5c977f" resname="Update Student_StudentEditform">
+        <source>Update Student_StudentEditform</source>
+        <target>Update Student_StudentEditform</target>
+        <jms:reference-file line="47">/../src/EDUBundle/Form/StudentEditType.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="5058fb5ed4e1b24d44b631a9103c69ed1d2613ad" resname="Update Subjects_classSubjectEditType">
+        <source>Update Subjects_classSubjectEditType</source>
+        <target>Update Subjects_classSubjectEditType</target>
+        <jms:reference-file line="39">/../src/EDUBundle/Form/ClassSubjectEditType.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="843cd1381bf922ba08da8160fa2e8eb6b9f916ea" resname="address_addressType">
+        <source>address_addressType</source>
+        <target>address_addressType</target>
+        <jms:reference-file line="28">/../src/EDUBundle/Form/AddressType.php</jms:reference-file>
+        <jms:reference-file line="34">/../src/EDUBundle/Form/AddressType.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="e4e632a2269b2c21fa639f899a60bca4141688b0" resname="address_edit_user_form">
+        <source>address_edit_user_form</source>
+        <target>address_edit_user_form</target>
+        <jms:reference-file line="27">/../src/EDUBundle/Form/ContactEditType.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="3819be127c43e2ef5ba9f087cb01c2311d17244a" resname="class_StudentEditform">
+        <source>class_StudentEditform</source>
+        <target>class_StudentEditform</target>
+        <jms:reference-file line="40">/../src/EDUBundle/Form/StudentEditType.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="81d975cc7fded9fd470164258a58c2e81516a14d" resname="class_classType">
+        <source>class_classType</source>
+        <target>class_classType</target>
+        <jms:reference-file line="29">/../src/EDUBundle/Form/ClassType.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="d3e11fc4c0f334a5a0e3172a640f5b535b04e1f1" resname="class_classTypeform">
+        <source>class_classTypeform</source>
+        <target>class_classTypeform</target>
+        <jms:reference-file line="27">/../src/EDUBundle/Form/AddClassType.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="8e20ad1543fc2a328b65d301d863a53b41a7f63a" resname="contactNumber_addressType">
+        <source>contactNumber_addressType</source>
+        <target>contactNumber_addressType</target>
+        <jms:reference-file line="40">/../src/EDUBundle/Form/AddressType.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="d43e6b08e1669d77508ef10984f8153fcd583790" resname="contactNumber_edit_user_form">
+        <source>contactNumber_edit_user_form</source>
+        <target>contactNumber_edit_user_form</target>
+        <jms:reference-file line="41">/../src/EDUBundle/Form/ContactEditType.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="f8b28a2b905dda4c0339e420fc26d2cf2c41db6e" resname="email_addUserFrom">
+        <source>email_addUserFrom</source>
+        <target>email_addUserFrom</target>
+        <jms:reference-file line="52">/../src/EDUBundle/Form/UserType.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="014fa5ac2143d1b07120aed80b859e12d5e0e7a5" resname="email_edit_user_form">
+        <source>email_edit_user_form</source>
+        <target>email_edit_user_form</target>
+        <jms:reference-file line="44">/../src/EDUBundle/Form/UserEditType.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="d9640349e7bf412e3914e7a2eaac5853acf31002" resname="firstname_addUserFrom">
+        <source>firstname_addUserFrom</source>
+        <target>firstname_addUserFrom</target>
+        <jms:reference-file line="38">/../src/EDUBundle/Form/UserType.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="0884a571cb27498a197de24241adde2398c498a3" resname="firstname_edit_user_form">
+        <source>firstname_edit_user_form</source>
+        <target>firstname_edit_user_form</target>
+        <jms:reference-file line="30">/../src/EDUBundle/Form/UserEditType.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="9e5ad32e0aaaa87f6f0a69ba3404d28f1043971e" resname="lastname_addUserFrom">
+        <source>lastname_addUserFrom</source>
+        <target>lastname_addUserFrom</target>
+        <jms:reference-file line="46">/../src/EDUBundle/Form/UserType.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="2b1a2ad089f4c7d3685f721515a545796857bc4b" resname="lastname_edit_user_form">
+        <source>lastname_edit_user_form</source>
+        <target>lastname_edit_user_form</target>
+        <jms:reference-file line="37">/../src/EDUBundle/Form/UserEditType.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="82ad867354d350bf12bae5b999113a223547c0fc" resname="locale_addUserFrom">
+        <source>locale_addUserFrom</source>
+        <target>locale_addUserFrom</target>
+        <jms:reference-file line="91">/../src/EDUBundle/Form/UserType.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="ee6821039faa8f7c4555f91699fa2ffd4cba1d93" resname="locale_edit_user_form">
+        <source>locale_edit_user_form</source>
+        <target>locale_edit_user_form</target>
+        <jms:reference-file line="64">/../src/EDUBundle/Form/UserEditType.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="cd47894a85a993e41e5d48e73773e9c3e1e70a67" resname="password_addUserFrom">
+        <source>password_addUserFrom</source>
+        <target>password_addUserFrom</target>
+        <jms:reference-file line="68">/../src/EDUBundle/Form/UserType.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="cc7585ea2b6830824eeeff2f10616541b97dd66d" resname="phonenumber_addUserFrom">
+        <source>phonenumber_addUserFrom</source>
+        <target>phonenumber_addUserFrom</target>
+        <jms:reference-file line="97">/../src/EDUBundle/Form/UserType.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="e582b94c20be4fd57ca8852d6101d8a9f22f81a3" resname="phonenumber_edit_user_form">
+        <source>phonenumber_edit_user_form</source>
+        <target>phonenumber_edit_user_form</target>
+        <jms:reference-file line="72">/../src/EDUBundle/Form/UserEditType.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="bb39796d9286bfe274659b54a0605d6a4fbb8376" resname="postCode_edit_user_form">
+        <source>postCode_edit_user_form</source>
+        <target>postCode_edit_user_form</target>
+        <jms:reference-file line="34">/../src/EDUBundle/Form/ContactEditType.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="27e2c09f35878bfa72f7f105856bad1c28fdf008" resname="subject_class_subject_type">
+        <source>subject_class_subject_type</source>
+        <target>subject_class_subject_type</target>
+        <jms:reference-file line="29">/../src/EDUBundle/Form/ClassSubjectType.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="4fd7ae128e76971b5a2a07b205ecd12d6f90b9cb" resname="username_addUserFrom">
+        <source>username_addUserFrom</source>
+        <target>username_addUserFrom</target>
+        <jms:reference-file line="59">/../src/EDUBundle/Form/UserType.php</jms:reference-file>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
